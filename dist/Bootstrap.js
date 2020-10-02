@@ -1,2 +1,4 @@
-"use strict";
-alert("Bootstrapping is happening from TS to Github.io");
+import { Fetcher } from "./Posts/Fetcher";
+console.log("bootstrap");
+var fetcher = new Fetcher();
+fetcher.importFrom("../../content");

@@ -1,1 +1,5 @@
-alert("Bootstrapping is happening from TS to Github.io");
+import { Fetcher } from "./Posts/Fetcher";
+
+const fetcher = new Fetcher();
+console.log("bootstrap")
+fetcher.importFrom("../../content");

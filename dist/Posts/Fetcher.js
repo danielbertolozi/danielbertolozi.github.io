@@ -1,9 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Fetcher = void 0;
 var Fetcher = /** @class */ (function () {
     function Fetcher() {
     }
+    Fetcher.prototype.importFrom = function (path) {
+        debugger;
+    };
     return Fetcher;
 }());
-exports.Fetcher = Fetcher;
+export { Fetcher };
