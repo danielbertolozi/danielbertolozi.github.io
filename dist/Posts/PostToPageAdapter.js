@@ -6,11 +6,14 @@ export class PostToPageAdapter {
     }
     buildPost(post) {
         // TODO: Markdown formatting here. Should check first character to determine element type, or look for **/__/~~
-        const div = document.createElement("div");
-        div.className = "post";
-        const paragraph = document.createElement("p");
-        paragraph.innerHTML = post;
-        div.appendChild(paragraph);
-        return div;
+        const postContainer = document.createElement("div");
+        postContainer.className = "post";
+        const fileName = document.createElement('h5');
+        fileName.innerHTML = post.fileName;
+        const postCorpus = document.createElement("p");
+        postCorpus.innerHTML = post.content;
+        postContainer.appendChild(fileName);
+        postContainer.appendChild(postCorpus);
+        return postContainer;
     }
 }

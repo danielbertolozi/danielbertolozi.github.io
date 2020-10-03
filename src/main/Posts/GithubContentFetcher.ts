@@ -2,23 +2,34 @@ import Axios from "axios";
 import env from "../env";
 
 export class GithubContentFetcher {
-  public async importFrom(path: string) {
+  public async importFrom(path: string): Promise<Post[]> {
     const listOfFiles = await this.fetchDownloadLinksFromAPI(path);
-    const posts = await this.downloadMultiplePosts(listOfFiles);
-    return posts.map(p => p.data);
+    return this.downloadMultiplePosts(listOfFiles);
   }
 
-  private async fetchDownloadLinksFromAPI(path: string): Promise<string[]> {
+  private async fetchDownloadLinksFromAPI(path: string): Promise<CleanedResponse[]> {
     const contentInformation = await Axios.get(env.baseUrl + path);
     const parsed = contentInformation.data;
-    return parsed.map((entry: GHResponse) => entry.download_url);
+    return parsed.map((entry: GHResponse) => ({name: entry.name, url: entry.download_url}));
   }
 
-  private async downloadMultiplePosts(listOfUrls: string[]) {
-    return Promise.all(listOfUrls.map((url) => Axios.get(url)));
+  private async downloadMultiplePosts(listOfPostsMeta: CleanedResponse[]) {
+    return Promise.all(listOfPostsMeta.map((post) => {
+      return new Promise<Post>(async (resolve) => {
+        const content = await Axios.get<string>(post.url);
+        resolve({
+          fileName: post.name,
+          content: content.data
+        });
+      });
+    }));
   }
 }
 
+export interface Post {
+  fileName: string;
+  content: string;
+}
 
 interface GHResponse {
   name: string;
@@ -30,4 +41,9 @@ interface GHResponse {
   git_url: string;
   download_url: string;
   type: string;
+}
+
+interface CleanedResponse {
+  name: string;
+  url: string;
 }

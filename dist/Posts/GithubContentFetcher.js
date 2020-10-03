@@ -13,20 +13,27 @@ export class GithubContentFetcher {
     importFrom(path) {
         return __awaiter(this, void 0, void 0, function* () {
             const listOfFiles = yield this.fetchDownloadLinksFromAPI(path);
-            const posts = yield this.downloadMultiplePosts(listOfFiles);
-            return posts.map(p => p.data);
+            return this.downloadMultiplePosts(listOfFiles);
         });
     }
     fetchDownloadLinksFromAPI(path) {
         return __awaiter(this, void 0, void 0, function* () {
             const contentInformation = yield Axios.get(env.baseUrl + path);
             const parsed = contentInformation.data;
-            return parsed.map((entry) => entry.download_url);
+            return parsed.map((entry) => ({ name: entry.name, url: entry.download_url }));
         });
     }
-    downloadMultiplePosts(listOfUrls) {
+    downloadMultiplePosts(listOfPostsMeta) {
         return __awaiter(this, void 0, void 0, function* () {
-            return Promise.all(listOfUrls.map((url) => Axios.get(url)));
+            return Promise.all(listOfPostsMeta.map((post) => {
+                return new Promise((resolve) => __awaiter(this, void 0, void 0, function* () {
+                    const content = yield Axios.get(post.url);
+                    resolve({
+                        fileName: post.name,
+                        content: content.data
+                    });
+                }));
+            }));
         });
     }
 }
