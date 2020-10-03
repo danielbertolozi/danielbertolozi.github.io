@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _env__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./env */ \"./dist/env.js\");\n/* harmony import */ var _Posts_GithubContentFetcher__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Posts/GithubContentFetcher */ \"./dist/Posts/GithubContentFetcher.js\");\nvar __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\n    return new (P || (P = Promise))(function (resolve, reject) {\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\n    });\n};\n\n\n(() => __awaiter(void 0, void 0, void 0, function* () {\n    const fetcher = new _Posts_GithubContentFetcher__WEBPACK_IMPORTED_MODULE_1__[\"GithubContentFetcher\"]();\n    const response = yield fetcher.importFrom(_env__WEBPACK_IMPORTED_MODULE_0__[\"default\"].contentsFolder);\n    alert(JSON.stringify(response));\n}))();\n\n\n//# sourceURL=webpack:///./dist/Bootstrap.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _env__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./env */ \"./dist/env.js\");\n/* harmony import */ var _Posts_GithubContentFetcher__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Posts/GithubContentFetcher */ \"./dist/Posts/GithubContentFetcher.js\");\n/* harmony import */ var _Posts_PostToPageAdapter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Posts/PostToPageAdapter */ \"./dist/Posts/PostToPageAdapter.js\");\nvar __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\n    return new (P || (P = Promise))(function (resolve, reject) {\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\n    });\n};\n\n\n\n(() => __awaiter(void 0, void 0, void 0, function* () {\n    const fetcher = new _Posts_GithubContentFetcher__WEBPACK_IMPORTED_MODULE_1__[\"GithubContentFetcher\"]();\n    const posts = yield fetcher.importFrom(_env__WEBPACK_IMPORTED_MODULE_0__[\"default\"].contentsFolder);\n    const adapter = new _Posts_PostToPageAdapter__WEBPACK_IMPORTED_MODULE_2__[\"PostToPageAdapter\"]();\n    posts.forEach((p) => adapter.addToPage(p, _env__WEBPACK_IMPORTED_MODULE_0__[\"default\"].postsDivId));\n}))();\n\n\n//# sourceURL=webpack:///./dist/Bootstrap.js?");
 
 /***/ }),
 
@@ -110,6 +110,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./dist/Posts/PostToPageAdapter.js":
+/*!*****************************************!*\
+  !*** ./dist/Posts/PostToPageAdapter.js ***!
+  \*****************************************/
+/*! exports provided: PostToPageAdapter */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"PostToPageAdapter\", function() { return PostToPageAdapter; });\nclass PostToPageAdapter {\n    addToPage(post, divId) {\n        var _a;\n        const elementToAdd = this.buildPost(post);\n        (_a = document.getElementById(divId)) === null || _a === void 0 ? void 0 : _a.appendChild(elementToAdd);\n    }\n    buildPost(post) {\n        const div = document.createElement(\"div\");\n        const paragraph = document.createElement(\"p\");\n        paragraph.innerHTML = post;\n        div.appendChild(paragraph);\n        return div;\n    }\n}\n\n\n//# sourceURL=webpack:///./dist/Posts/PostToPageAdapter.js?");
+
+/***/ }),
+
 /***/ "./dist/env.js":
 /*!*********************!*\
   !*** ./dist/env.js ***!
@@ -118,7 +130,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    baseUrl: \"https://api.github.com/repos/danielbertolozi/danielbertolozi.github.io/contents\",\n    // \"http://localhost:9080\"\n    contentsFolder: \"/content\"\n});\n\n\n//# sourceURL=webpack:///./dist/env.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    baseUrl: \"https://api.github.com/repos/danielbertolozi/danielbertolozi.github.io/contents\",\n    // \"http://localhost:9080\"\n    contentsFolder: \"/content\",\n    postsDivId: \"posts\"\n});\n\n\n//# sourceURL=webpack:///./dist/env.js?");
 
 /***/ }),
 
