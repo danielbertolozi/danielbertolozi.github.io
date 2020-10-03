@@ -5,7 +5,7 @@ context("Post/Fetcher Test", () => {
   describe(".import", () => {
     it("should import all md content from given path", () => {
       const fetcher = new Fetcher();
-      const posts = fetcher.importFrom("");
+      const posts = fetcher.importFrom("/content");
       expect(new Fetcher()).not.to.be.undefined;
     });
   });

@@ -7,6 +7,8 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
+    "koa": "^2.13.0",
+    "koa-static": "^5.0.0",
     "mocha": "^8.1.3",
     "static-server": "^2.2.1",
     "typescript": "^4.0.3",
@@ -14,10 +16,11 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "build": "tsc",
+    "tsc": "tsc",
+    "build": "yarn tsc; yarn webpack",
     "test": "mocha",
     "webpack": "./node_modules/.bin/webpack",
-    "start": "./node_modules/.bin/static-server"
+    "start": "node serve.js"
   },
   "mocha": {
     "recursive": true,
