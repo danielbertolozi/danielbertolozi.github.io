@@ -1,15 +1,33 @@
+import Axios from "axios";
+import env from "../env";
+
 export class Fetcher {
   public async importFrom(path: string) {
-    // TODO: set base URL based on .env. 
-    // For deploy should use fetch('https://api.github.com/repos/danielbertolozi/danielbertolozi.github.io/contents/content');
-    // Deploy's URL should be at a .env
-    // For local, I should create a server that mocks that, using content's content 
-    const request = new XMLHttpRequest();
-    const baseUrl = "http://localhost:9080";
-    path = "https://api.github.com/repos/danielbertolozi/danielbertolozi.github.io/contents/content";
-    request.open("GET", path);
-    request.onreadystatechange = () => alert(request.response);
-    request.send();
-    // TODO: Return promise
+    const listOfFiles = await this.fetchDownloadLinksFromAPI(path);
+    const posts = await this.downloadMultiplePosts(listOfFiles);
+    return posts.map(p => p.data);
   }
+
+  private async fetchDownloadLinksFromAPI(path: string): Promise<string[]> {
+    const contentInformation = await Axios.get(env.baseUrl + path);
+    const parsed = contentInformation.data;
+    return parsed.map((entry: GHResponse) => entry.download_url);
+  }
+
+  private async downloadMultiplePosts(listOfUrls: string[]) {
+    return Promise.all(listOfUrls.map((url) => Axios.get(url)));
+  }
+}
+
+
+interface GHResponse {
+  name: string;
+  path: string;
+  sha: string;
+  size: number;
+  url: string;
+  html_url: string;
+  git_url: string;
+  download_url: string;
+  type: string;
 }
