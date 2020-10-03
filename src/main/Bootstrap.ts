@@ -1,8 +1,8 @@
 import env from "./env";
-import { Fetcher } from "./Posts/Fetcher";
+import { GithubContentFetcher } from "./Posts/GithubContentFetcher";
 
 (async () => {
-  const fetcher = new Fetcher();
+  const fetcher = new GithubContentFetcher();
   const response = await fetcher.importFrom(env.contentsFolder);
   alert(JSON.stringify(response));
 })();

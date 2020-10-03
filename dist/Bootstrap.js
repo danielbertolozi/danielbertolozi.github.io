@@ -8,9 +8,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import env from "./env";
-import { Fetcher } from "./Posts/Fetcher";
+import { GithubContentFetcher } from "./Posts/GithubContentFetcher";
 (() => __awaiter(void 0, void 0, void 0, function* () {
-    const fetcher = new Fetcher();
+    const fetcher = new GithubContentFetcher();
     const response = yield fetcher.importFrom(env.contentsFolder);
     alert(JSON.stringify(response));
 }))();

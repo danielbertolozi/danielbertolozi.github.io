@@ -1,7 +1,7 @@
 import Axios from "axios";
 import env from "../env";
 
-export class Fetcher {
+export class GithubContentFetcher {
   public async importFrom(path: string) {
     const listOfFiles = await this.fetchDownloadLinksFromAPI(path);
     const posts = await this.downloadMultiplePosts(listOfFiles);
