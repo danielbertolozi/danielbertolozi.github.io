@@ -5,6 +5,7 @@ export class PostToPageAdapter {
   }
   private buildPost(post: string): Node {
     const div = document.createElement("div");
+    div.className = "post";
     const paragraph = document.createElement("p");
     paragraph.innerHTML = post;
     div.appendChild(paragraph);
