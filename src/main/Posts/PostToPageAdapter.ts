@@ -4,6 +4,7 @@ export class PostToPageAdapter {
     document.getElementById(divId)?.appendChild(elementToAdd);
   }
   private buildPost(post: string): Node {
+    // TODO: Markdown formatting here. Should check first character to determine element type, or look for **/__/~~
     const div = document.createElement("div");
     div.className = "post";
     const paragraph = document.createElement("p");
