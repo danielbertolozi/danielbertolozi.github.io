@@ -13,3 +13,6 @@ body {
   display: flex;
   flex-direction: column;
 }
+.posts p {
+  white-space: pre-wrap;
+}
