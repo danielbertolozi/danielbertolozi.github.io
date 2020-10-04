@@ -2,7 +2,7 @@ import Axios from "axios";
 import env from "../env";
 
 export class GithubContentFetcher {
-  public async importFrom(path: string): Promise<Post[]> {
+  public async importFrom(path: string): Promise<GithubPostObject[]> {
     const listOfFiles = await this.fetchDownloadLinksFromAPI(path);
     return this.downloadMultiplePosts(listOfFiles);
   }
@@ -15,20 +15,22 @@ export class GithubContentFetcher {
 
   private async downloadMultiplePosts(listOfPostsMeta: CleanedResponse[]) {
     return Promise.all(listOfPostsMeta.map((post) => {
-      return new Promise<Post>(async (resolve) => {
+      return new Promise<GithubPostObject>(async (resolve) => {
         const content = await Axios.get<string>(post.url);
         resolve({
           fileName: post.name,
-          content: content.data
+          content: content.data,
+          downloadUrl: post.url
         });
       });
     }));
   }
 }
 
-export interface Post {
+export interface GithubPostObject {
   fileName: string;
   content: string;
+  downloadUrl: string;
 }
 
 interface GHResponse {

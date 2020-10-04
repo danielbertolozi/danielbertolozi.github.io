@@ -1,11 +1,11 @@
-import { Post } from "./GithubContentFetcher";
+import { GithubPostObject } from "./GithubContentFetcher";
 
 export class PostToPageAdapter {
-  public addToPage(post: Post, divId: string): void {
+  public addToPage(post: GithubPostObject, divId: string): void {
     const elementToAdd = this.buildPost(post);
     document.getElementById(divId)?.appendChild(elementToAdd);
   }
-  private buildPost(post: Post): Node {
+  private buildPost(post: GithubPostObject): Node {
     // TODO: Markdown formatting here. Should check first character to determine element type, or look for **/__/~~
     const postContainer = document.createElement("div");
     postContainer.className = "post";
