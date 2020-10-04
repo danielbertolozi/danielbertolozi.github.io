@@ -1,8 +1,9 @@
 import Axios from "axios";
 import env from "../env";
+import { PostWrapper } from "./PostWrapper";
 
 export class GithubContentFetcher {
-  public async importFrom(path: string): Promise<GithubPostObject[]> {
+  public async importFrom(path: string): Promise<PostWrapper[]> {
     const listOfFiles = await this.fetchDownloadLinksFromAPI(path);
     return this.downloadMultiplePosts(listOfFiles);
   }
@@ -15,13 +16,13 @@ export class GithubContentFetcher {
 
   private async downloadMultiplePosts(listOfPostsMeta: CleanedResponse[]) {
     return Promise.all(listOfPostsMeta.map((post) => {
-      return new Promise<GithubPostObject>(async (resolve) => {
+      return new Promise<PostWrapper>(async (resolve) => {
         const content = await Axios.get<string>(post.url);
-        resolve({
+        resolve(new PostWrapper({
           fileName: post.name,
           content: content.data,
           downloadUrl: post.url
-        });
+        }));
       });
     }));
   }
