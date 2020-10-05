@@ -17,9 +17,7 @@ context("Post Wrapper", () => {
     - javascript\n\
     - markdown\n\
     \n\
-    --/--/--\n\
-    This is the first line of content.\n\
-    Second line.",
+    --/--/--\nThis is the first line of content.\nSecond line.",
     downloadUrl: "http://google.com"
   };
   describe("when instantiating", () => {
@@ -35,6 +33,19 @@ context("Post Wrapper", () => {
         Time: "Sun Oct 04 2020 20:07:12 GMT-0300",
         Title: "Metadata support for Markdown!",
         Tags: ["programming", "meta", "javascript", "markdown"]
+      });
+    });
+    it("should separate post content from metadata correctly", () => {
+      const wrapper = new PostWrapper(mockPostWithMeta);
+      expect(wrapper.getContent()).to.be.equal("This is the first line of content.\nSecond line.");
+    });
+    it("should support posts with no metadata", () => {
+      const wrapper = new PostWrapper(mockPost);
+      expect(wrapper.getContent()).to.be.equal("This is the mock corpus");
+      expect(wrapper.getMetadata()).to.be.deep.equal({
+        Time: "",
+        Title: "",
+        Tags: []
       });
     });
   });

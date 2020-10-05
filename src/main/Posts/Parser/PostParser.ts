@@ -4,11 +4,16 @@ import { SimpleNodeParser } from "./Metadata/SimpleNodeParser";
 export class PostParser {
   public static extractMetadata(content: string, separator: string): string {
     const separatorIndex = this.findSeparator(content, separator);
-    return content.substring(0, separatorIndex);
+    return content.substring(0, separatorIndex).trim();
   }
   public static extractPostContent(content: string, separator: string): string {
     const separatorIndex = this.findSeparator(content, separator);
-    return content.substring(separatorIndex + separator.length);
+    if (separatorIndex < 0) {
+      return content.trim();
+    }
+    return content
+      .substring(separatorIndex + separator.length)
+      .trim();
   }
   private static findSeparator(content: string, separator: string): number {
     return content.indexOf(separator);
