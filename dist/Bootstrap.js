@@ -41,6 +41,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var env_1 = __importDefault(require("./env"));
 var GithubContentFetcher_1 = require("./Posts/GithubContentFetcher");
+var PostSorter_1 = require("./Posts/PostSorter");
 var PostToPageAdapter_1 = require("./Posts/PostToPageAdapter");
 (function () { return __awaiter(void 0, void 0, void 0, function () {
     var fetcher, posts, adapter;
@@ -51,6 +52,7 @@ var PostToPageAdapter_1 = require("./Posts/PostToPageAdapter");
                 return [4 /*yield*/, fetcher.importFrom(env_1.default.contentsFolder)];
             case 1:
                 posts = _a.sent();
+                PostSorter_1.PostSorter.newToOld(posts);
                 adapter = new PostToPageAdapter_1.PostToPageAdapter();
                 posts.forEach(function (p) { return adapter.addToPage(p, env_1.default.postsDivId); });
                 return [2 /*return*/];
