@@ -27,7 +27,7 @@ function mockGithubResponse() {
       const result = files.map((f) => ({
         name: f,
         path: removeLeadingSlash(CONTENT_PATH + "/" + f),
-        url: `localhost:${PORT}${env.contentsFolder}/${f}`
+        download_url: `http://localhost:${PORT}${env.contentsFolder}/${f}`
       }));
       resolve(result);
     });
