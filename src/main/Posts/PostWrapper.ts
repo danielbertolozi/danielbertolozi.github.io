@@ -1,6 +1,12 @@
 import { GithubPostObject } from "./GithubContentFetcher";
 import { PostParser } from "./Parser/PostParser";
 
+export interface PostMetadata {
+  Time: string;
+  Title: string;
+  Tags: string[];
+}
+
 export class PostWrapper {
   private metadata: PostMetadata = { Time: "", Title: "", Tags: [] };
   private content: string = "";
@@ -34,10 +40,4 @@ export class PostWrapper {
   public getContent(): string {
     return this.content;
   }
-}
-
-export interface PostMetadata {
-  Time: string;
-  Title: string;
-  Tags: string[];
 }
