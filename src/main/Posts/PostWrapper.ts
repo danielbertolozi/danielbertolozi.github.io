@@ -1,4 +1,5 @@
 import { GithubPostObject } from "./GithubContentFetcher";
+import { PostParser } from "./Parser/PostParser";
 
 export class PostWrapper {
   private metadata: PostMetadata = { Time: "", Title: "", Tags: [] };
@@ -8,14 +9,15 @@ export class PostWrapper {
     this.parse(rawPost);
   }
   private parse(source: GithubPostObject): void {
-    const metadata = Parser.extractMetadata(source.content, this.SEPARATOR);
-    this.content = Parser.extractPostContent(source.content, this.SEPARATOR);
-    // TODO: Handle docs without metadata
-    this.metadata = {
-      Time: Parser.extractTimeFromMetadata(metadata),
-      Title: Parser.extractTitleFromMetadata(metadata),
-      Tags: Parser.extractTagsFromMetadata(metadata),
-    };
+    const metadata = PostParser.extractMetadata(source.content, this.SEPARATOR);
+    this.content = PostParser.extractPostContent(source.content, this.SEPARATOR);
+    if (metadata) {
+      this.metadata = {
+        Time: PostParser.extractTimeFromMetadata(metadata),
+        Title: PostParser.extractTitleFromMetadata(metadata),
+        Tags: PostParser.extractTagsFromMetadata(metadata),
+      };
+    }
   }
   public getRawFile(): string {
     return this.rawPost.content;
@@ -31,45 +33,6 @@ export class PostWrapper {
   }
   public getContent(): string {
     return this.content;
-  }
-}
-
-class Parser {
-  public static extractMetadata(content: string, separator: string): string {
-    const separatorIndex = this.findSeparator(content, separator);
-    return content.substring(0, separatorIndex);
-  }
-  public static extractPostContent(content: string, separator: string): string {
-    const separatorIndex = this.findSeparator(content, separator);
-    return content.substring(separatorIndex + separator.length);
-  }
-  private static findSeparator(content: string, separator: string): number {
-    return content.indexOf(separator);
-  }
-  public static extractTitleFromMetadata(metadata: string): string {
-    return this.extractWholeLineThatBeginsWith(metadata, "Title: ");
-  }
-  public static extractTimeFromMetadata(metadata: string): string {
-    return this.extractWholeLineThatBeginsWith(metadata, "Time: ");
-  }
-  public static extractTagsFromMetadata(metadata: string): string[] {
-    return this.extractSequenceEntries(metadata, "Tags:");
-  }
-  private static extractWholeLineThatBeginsWith(content: string, nodeName: string): string {
-    const nodeIndex = content.indexOf(nodeName);
-    const nodeLineBreakIndex = content.substring(nodeIndex).indexOf("\n");
-    const nodeLabelLength = nodeName.length;
-
-    const start = nodeIndex + nodeLabelLength;
-    const end = nodeLineBreakIndex + nodeIndex;
-    return content.substring(start, end);
-  }
-  private static extractSequenceEntries(content: string, nodeName: string): string[] {
-    const nodeIndex = content.indexOf(nodeName);
-    const labelLineBreakIndex = content.substring(nodeIndex).indexOf("\n") + nodeIndex + 2; // 2 is the length of \n
-    const sequenceEnd = /\n[A-Z]/.exec(content.substring(labelLineBreakIndex))?.index;
-    // TODO: If no regex match, then go till end
-    return content.substring(labelLineBreakIndex, sequenceEnd).split("\n").map((entry) => entry.trim().substring(2)).filter((entry) => !!entry);
   }
 }
 
