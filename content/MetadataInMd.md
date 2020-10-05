@@ -18,7 +18,7 @@ I'm not gonna implement full YAML support, as it just isn't needed. I'm assuming
 
 As of now, I have determined only a few fields that I desire to have in that. This below is the same example I'm using in this file:
 
-
+```
 Time: Sun Oct 04 2020 20:07:12 GMT-0300
 Title: Metadata support for Markdown!
 Tags:
@@ -28,6 +28,7 @@ Tags:
 - markdown
 --/--/--
 [Content starts on next line after divider]
+```
 
 ## Preparation and more programming things
 

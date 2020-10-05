@@ -10,13 +10,33 @@ export class PostToPageAdapter {
     const postContainer = document.createElement("div");
     postContainer.className = "post";
 
-    const fileName = document.createElement('h5');
+    const fileName = document.createElement('span');
     fileName.innerHTML = post.getFileName();
 
+    const time = document.createElement("span");
+    time.innerHTML = post.getMetadata().Time;
+
+    const upperPart = document.createElement("div");
+    upperPart.className = "post-filename-and-time";
+
+    upperPart.appendChild(fileName);
+    upperPart.appendChild(time);
+
+    const title = document.createElement('h2');
+    title.innerHTML = post.getMetadata().Title;
+
     const postCorpus = document.createElement("p");
-    postCorpus.innerHTML = post.getContent();;
-    postContainer.appendChild(fileName);
+    postCorpus.innerHTML = post.getContent();
+    postCorpus.className = "post-corpus";
+
+    const tags = document.createElement("span");
+    tags.innerHTML = post.getMetadata().Tags.join(" | ");
+    tags.className = "tags";
+
+    postContainer.appendChild(upperPart);
+    postContainer.appendChild(title);
     postContainer.appendChild(postCorpus);
+    postContainer.appendChild(tags);
     return postContainer;
   }
 }
