@@ -30,6 +30,9 @@ var PostWrapper = /** @class */ (function () {
     PostWrapper.prototype.getFileUrl = function () {
         return this.rawPost.downloadUrl;
     };
+    PostWrapper.prototype.getLinkToFileInGitHub = function () {
+        return this.rawPost.htmlUrl;
+    };
     PostWrapper.prototype.getMetadata = function () {
         return this.metadata;
     };

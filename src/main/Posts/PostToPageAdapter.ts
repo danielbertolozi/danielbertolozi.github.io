@@ -12,7 +12,7 @@ export class PostToPageAdapter {
 
     const fileName = document.createElement('a');
     fileName.innerHTML = post.getFileName();
-    fileName.href = post.getFileUrl();
+    fileName.href = post.getLinkToFileInGitHub();
 
     const time = document.createElement("span");
     time.innerHTML = post.getMetadata().Time;

@@ -68,7 +68,7 @@ var GithubContentFetcher = /** @class */ (function () {
                     case 1:
                         contentInformation = _a.sent();
                         parsed = contentInformation.data;
-                        return [2 /*return*/, parsed.map(function (entry) { return ({ name: entry.name, url: entry.download_url }); })];
+                        return [2 /*return*/, parsed.map(function (entry) { return ({ name: entry.name, downloadUrl: entry.download_url, htmlUrl: entry.html_url }); })];
                 }
             });
         });
@@ -82,13 +82,14 @@ var GithubContentFetcher = /** @class */ (function () {
                             var content;
                             return __generator(this, function (_a) {
                                 switch (_a.label) {
-                                    case 0: return [4 /*yield*/, axios_1.default.get(post.url)];
+                                    case 0: return [4 /*yield*/, axios_1.default.get(post.downloadUrl)];
                                     case 1:
                                         content = _a.sent();
                                         resolve(new PostWrapper_1.PostWrapper({
                                             fileName: post.name,
                                             content: content.data,
-                                            downloadUrl: post.url
+                                            downloadUrl: post.downloadUrl,
+                                            htmlUrl: post.htmlUrl
                                         }));
                                         return [2 /*return*/];
                                 }

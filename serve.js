@@ -27,7 +27,9 @@ function mockGithubResponse() {
       const result = files.map((f) => ({
         name: f,
         path: removeLeadingSlash(CONTENT_PATH + "/" + f),
-        download_url: `http://localhost:${PORT}${env.contentsFolder}/${f}`
+        download_url: `http://localhost:${PORT}${env.contentsFolder}/${f}`,
+        // Link below is hard-coded to my Github. Change if needed.
+        html_url: `https://github.com/danielbertolozi/danielbertolozi.github.io/blob/main/content/${f}`
       }));
       resolve(result);
     });

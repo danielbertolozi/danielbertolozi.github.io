@@ -11,17 +11,18 @@ export class GithubContentFetcher {
   private async fetchDownloadLinksFromAPI(path: string): Promise<CleanedResponse[]> {
     const contentInformation = await Axios.get(env.baseUrl + path);
     const parsed = contentInformation.data;
-    return parsed.map((entry: GHResponse) => ({name: entry.name, url: entry.download_url}));
+    return parsed.map((entry: GHResponse) => ({name: entry.name, downloadUrl: entry.download_url, htmlUrl: entry.html_url}));
   }
 
   private async downloadMultiplePosts(listOfPostsMeta: CleanedResponse[]) {
     return Promise.all(listOfPostsMeta.map((post) => {
       return new Promise<PostWrapper>(async (resolve) => {
-        const content = await Axios.get<string>(post.url);
+        const content = await Axios.get<string>(post.downloadUrl);
         resolve(new PostWrapper({
           fileName: post.name,
           content: content.data,
-          downloadUrl: post.url
+          downloadUrl: post.downloadUrl,
+          htmlUrl: post.htmlUrl
         }));
       });
     }));
@@ -32,6 +33,7 @@ export interface GithubPostObject {
   fileName: string;
   content: string;
   downloadUrl: string;
+  htmlUrl: string;
 }
 
 interface GHResponse {
@@ -48,5 +50,6 @@ interface GHResponse {
 
 interface CleanedResponse {
   name: string;
-  url: string;
+  downloadUrl: string;
+  htmlUrl: string;
 }

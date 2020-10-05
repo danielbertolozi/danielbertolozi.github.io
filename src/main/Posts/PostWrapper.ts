@@ -34,6 +34,9 @@ export class PostWrapper {
   public getFileUrl(): string {
     return this.rawPost.downloadUrl;
   }
+  public getLinkToFileInGitHub(): string {
+    return this.rawPost.htmlUrl;
+  }
   public getMetadata(): PostMetadata {
     return this.metadata;
   }
