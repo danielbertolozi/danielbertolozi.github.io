@@ -9,12 +9,12 @@ export class PostWrapper {
   }
   private parse(source: GithubPostObject): void {
     const metadata = Parser.extractMetadata(source.content, this.SEPARATOR);
-    console.log(metadata);
     this.content = Parser.extractPostContent(source.content, this.SEPARATOR);
+    // TODO: Handle docs without metadata
     this.metadata = {
-      Time: "",
+      Time: Parser.extractTimeFromMetadata(metadata),
       Title: Parser.extractTitleFromMetadata(metadata),
-      Tags: [],
+      Tags: Parser.extractTagsFromMetadata(metadata),
     };
   }
   public getRawFile(): string {
@@ -47,10 +47,29 @@ class Parser {
     return content.indexOf(separator);
   }
   public static extractTitleFromMetadata(metadata: string): string {
-    const titleIndex = metadata.indexOf("Title:");
-    const titleLineBreakIndex = metadata.substring(titleIndex).indexOf("\n");
-    const titleLabelLength = "Title: ".length;
-    return metadata.substring(titleIndex + titleLabelLength, titleLineBreakIndex);
+    return this.extractWholeLineThatBeginsWith(metadata, "Title: ");
+  }
+  public static extractTimeFromMetadata(metadata: string): string {
+    return this.extractWholeLineThatBeginsWith(metadata, "Time: ");
+  }
+  public static extractTagsFromMetadata(metadata: string): string[] {
+    return this.extractSequenceEntries(metadata, "Tags:");
+  }
+  private static extractWholeLineThatBeginsWith(content: string, nodeName: string): string {
+    const nodeIndex = content.indexOf(nodeName);
+    const nodeLineBreakIndex = content.substring(nodeIndex).indexOf("\n");
+    const nodeLabelLength = nodeName.length;
+
+    const start = nodeIndex + nodeLabelLength;
+    const end = nodeLineBreakIndex + nodeIndex;
+    return content.substring(start, end);
+  }
+  private static extractSequenceEntries(content: string, nodeName: string): string[] {
+    const nodeIndex = content.indexOf(nodeName);
+    const labelLineBreakIndex = content.substring(nodeIndex).indexOf("\n") + nodeIndex + 2; // 2 is the length of \n
+    const sequenceEnd = /\n[A-Z]/.exec(content.substring(labelLineBreakIndex))?.index;
+    // TODO: If no regex match, then go till end
+    return content.substring(labelLineBreakIndex, sequenceEnd).split("\n").map((entry) => entry.trim().substring(2)).filter((entry) => !!entry);
   }
 }
 

@@ -9,16 +9,16 @@ context("Post Wrapper", () => {
   };
   const mockPostWithMeta = {
     fileName: "Metadata",
-    content: "Time: Sun Oct 04 2020 20:07:12 GMT-0300\
-    Title: Metadata support for Markdown!\
-    Tags:\
-    - programming\
-    - meta\
-    - javascript\
-    - markdown\
-    \
-    --/--/--\
-    This is the first line of content.\
+    content: "Time: Sun Oct 04 2020 20:07:12 GMT-0300\n\
+    Title: Metadata support for Markdown!\n\
+    Tags:\n\
+    - programming\n\
+    - meta\n\
+    - javascript\n\
+    - markdown\n\
+    \n\
+    --/--/--\n\
+    This is the first line of content.\n\
     Second line.",
     downloadUrl: "http://google.com"
   };
