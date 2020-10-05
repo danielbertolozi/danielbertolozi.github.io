@@ -13,8 +13,9 @@ var PostToPageAdapter = /** @class */ (function () {
         // TODO: Markdown formatting here. Should check first character to determine element type, or look for **/__/~~
         var postContainer = document.createElement("div");
         postContainer.className = "post";
-        var fileName = document.createElement('span');
+        var fileName = document.createElement('a');
         fileName.innerHTML = post.getFileName();
+        fileName.href = post.getFileUrl();
         var time = document.createElement("span");
         time.innerHTML = post.getMetadata().Time;
         var upperPart = document.createElement("div");

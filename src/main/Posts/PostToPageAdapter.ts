@@ -10,8 +10,9 @@ export class PostToPageAdapter {
     const postContainer = document.createElement("div");
     postContainer.className = "post";
 
-    const fileName = document.createElement('span');
+    const fileName = document.createElement('a');
     fileName.innerHTML = post.getFileName();
+    fileName.href = post.getFileUrl();
 
     const time = document.createElement("span");
     time.innerHTML = post.getMetadata().Time;
