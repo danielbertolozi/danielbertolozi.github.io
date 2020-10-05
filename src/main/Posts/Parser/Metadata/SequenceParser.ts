@@ -20,9 +20,10 @@ export class SequenceParser {
   private static findWhereSequenceItemsEnds(content: string, nodeName: string) {
     const nodePosition = content.indexOf(nodeName);
     const labelLineBreakIndex = content.substring(nodePosition).indexOf("\n");
-    const sequenceEnd = FindNextNonSequenceLineRegExp.exec(content.substring(labelLineBreakIndex))?.index;
+    const endOfLineIndex = labelLineBreakIndex + nodePosition;
+    const sequenceEnd = FindNextNonSequenceLineRegExp.exec(content.substring(endOfLineIndex))?.index;
     if (sequenceEnd) {
-      return sequenceEnd + labelLineBreakIndex;
+      return sequenceEnd + labelLineBreakIndex + nodePosition;
     }
     return undefined;
   }
