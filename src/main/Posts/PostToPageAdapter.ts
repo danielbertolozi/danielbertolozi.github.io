@@ -1,3 +1,4 @@
+import { DateFormatter } from "../Formatter/DateFormatter";
 import { PostWrapper } from "./PostWrapper";
 
 export class PostToPageAdapter {
@@ -7,6 +8,7 @@ export class PostToPageAdapter {
   }
   private buildPost(post: PostWrapper): Node {
     // TODO: Markdown formatting here. Should check first character to determine element type, or look for **/__/~~
+    // TODO: Refactor, as this is kind of getting chaotic (and will do, with markdown formatting)
     const postContainer = document.createElement("div");
     postContainer.className = "post";
 
@@ -15,7 +17,7 @@ export class PostToPageAdapter {
     fileName.href = post.getLinkToFileInGitHub();
 
     const time = document.createElement("span");
-    time.innerHTML = post.getMetadata().Time;
+    time.innerHTML = DateFormatter.formatPostDate(new Date(post.getMetadata().Time));
 
     const upperPart = document.createElement("div");
     upperPart.className = "post-filename-and-time";

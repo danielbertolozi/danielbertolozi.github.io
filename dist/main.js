@@ -98,6 +98,18 @@ eval("\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _argument
 
 /***/ }),
 
+/***/ "./dist/Formatter/DateFormatter.js":
+/*!*****************************************!*\
+  !*** ./dist/Formatter/DateFormatter.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.DateFormatter = void 0;\nvar DateFormatter = /** @class */ (function () {\n    function DateFormatter() {\n    }\n    DateFormatter.formatPostDate = function (date) {\n        return date.toLocaleString();\n    };\n    return DateFormatter;\n}());\nexports.DateFormatter = DateFormatter;\n\n\n//# sourceURL=webpack:///./dist/Formatter/DateFormatter.js?");
+
+/***/ }),
+
 /***/ "./dist/Posts/GithubContentFetcher.js":
 /*!********************************************!*\
   !*** ./dist/Posts/GithubContentFetcher.js ***!
@@ -154,7 +166,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexport
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.PostToPageAdapter = void 0;\nvar PostToPageAdapter = /** @class */ (function () {\n    function PostToPageAdapter() {\n    }\n    PostToPageAdapter.prototype.addToPage = function (post, divId) {\n        var _a;\n        var elementToAdd = this.buildPost(post);\n        (_a = document.getElementById(divId)) === null || _a === void 0 ? void 0 : _a.appendChild(elementToAdd);\n    };\n    PostToPageAdapter.prototype.buildPost = function (post) {\n        // TODO: Markdown formatting here. Should check first character to determine element type, or look for **/__/~~\n        var postContainer = document.createElement(\"div\");\n        postContainer.className = \"post\";\n        var fileName = document.createElement('a');\n        fileName.innerHTML = post.getFileName();\n        fileName.href = post.getLinkToFileInGitHub();\n        var time = document.createElement(\"span\");\n        time.innerHTML = post.getMetadata().Time;\n        var upperPart = document.createElement(\"div\");\n        upperPart.className = \"post-filename-and-time\";\n        upperPart.appendChild(fileName);\n        upperPart.appendChild(time);\n        var title = document.createElement('h2');\n        title.innerHTML = post.getMetadata().Title;\n        var postCorpus = document.createElement(\"p\");\n        postCorpus.innerHTML = post.getContent();\n        postCorpus.className = \"post-corpus\";\n        var tags = document.createElement(\"span\");\n        tags.innerHTML = post.getMetadata().Tags.join(\" | \");\n        tags.className = \"tags\";\n        postContainer.appendChild(upperPart);\n        postContainer.appendChild(title);\n        postContainer.appendChild(postCorpus);\n        postContainer.appendChild(tags);\n        return postContainer;\n    };\n    return PostToPageAdapter;\n}());\nexports.PostToPageAdapter = PostToPageAdapter;\n\n\n//# sourceURL=webpack:///./dist/Posts/PostToPageAdapter.js?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.PostToPageAdapter = void 0;\nvar DateFormatter_1 = __webpack_require__(/*! ../Formatter/DateFormatter */ \"./dist/Formatter/DateFormatter.js\");\nvar PostToPageAdapter = /** @class */ (function () {\n    function PostToPageAdapter() {\n    }\n    PostToPageAdapter.prototype.addToPage = function (post, divId) {\n        var _a;\n        var elementToAdd = this.buildPost(post);\n        (_a = document.getElementById(divId)) === null || _a === void 0 ? void 0 : _a.appendChild(elementToAdd);\n    };\n    PostToPageAdapter.prototype.buildPost = function (post) {\n        // TODO: Markdown formatting here. Should check first character to determine element type, or look for **/__/~~\n        // TODO: Refactor, as this is kind of getting chaotic (and will do, with markdown formatting)\n        var postContainer = document.createElement(\"div\");\n        postContainer.className = \"post\";\n        var fileName = document.createElement('a');\n        fileName.innerHTML = post.getFileName();\n        fileName.href = post.getLinkToFileInGitHub();\n        var time = document.createElement(\"span\");\n        time.innerHTML = DateFormatter_1.DateFormatter.formatPostDate(new Date(post.getMetadata().Time));\n        var upperPart = document.createElement(\"div\");\n        upperPart.className = \"post-filename-and-time\";\n        upperPart.appendChild(fileName);\n        upperPart.appendChild(time);\n        var title = document.createElement('h2');\n        title.innerHTML = post.getMetadata().Title;\n        var postCorpus = document.createElement(\"p\");\n        postCorpus.innerHTML = post.getContent();\n        postCorpus.className = \"post-corpus\";\n        var tags = document.createElement(\"span\");\n        tags.innerHTML = post.getMetadata().Tags.join(\" | \");\n        tags.className = \"tags\";\n        postContainer.appendChild(upperPart);\n        postContainer.appendChild(title);\n        postContainer.appendChild(postCorpus);\n        postContainer.appendChild(tags);\n        return postContainer;\n    };\n    return PostToPageAdapter;\n}());\nexports.PostToPageAdapter = PostToPageAdapter;\n\n\n//# sourceURL=webpack:///./dist/Posts/PostToPageAdapter.js?");
 
 /***/ }),
 

@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PostToPageAdapter = void 0;
+var DateFormatter_1 = require("../Formatter/DateFormatter");
 var PostToPageAdapter = /** @class */ (function () {
     function PostToPageAdapter() {
     }
@@ -11,13 +12,14 @@ var PostToPageAdapter = /** @class */ (function () {
     };
     PostToPageAdapter.prototype.buildPost = function (post) {
         // TODO: Markdown formatting here. Should check first character to determine element type, or look for **/__/~~
+        // TODO: Refactor, as this is kind of getting chaotic (and will do, with markdown formatting)
         var postContainer = document.createElement("div");
         postContainer.className = "post";
         var fileName = document.createElement('a');
         fileName.innerHTML = post.getFileName();
         fileName.href = post.getLinkToFileInGitHub();
         var time = document.createElement("span");
-        time.innerHTML = post.getMetadata().Time;
+        time.innerHTML = DateFormatter_1.DateFormatter.formatPostDate(new Date(post.getMetadata().Time));
         var upperPart = document.createElement("div");
         upperPart.className = "post-filename-and-time";
         upperPart.appendChild(fileName);
