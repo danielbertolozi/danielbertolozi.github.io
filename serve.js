@@ -2,6 +2,7 @@ const Koa = require("koa");
 const KoaStatic = require("koa-static");
 const server = new Koa();
 const fs = require("fs");
+const env = require("./dist/env").default;
 
 const PORT = 9080;
 const CONTENT_PATH = "/content"; // TODO: Should be at .env
@@ -25,7 +26,10 @@ function mockGithubResponse() {
       }
       const result = files.map((f) => ({
         name: f,
-        path: removeLeadingSlash(CONTENT_PATH + "/" + f) 
+        path: removeLeadingSlash(CONTENT_PATH + "/" + f),
+        download_url: `http://localhost:${PORT}${env.contentsFolder}/${f}`,
+        // Link below is hard-coded to my Github. Change if needed.
+        html_url: `https://github.com/danielbertolozi/danielbertolozi.github.io/blob/main/content/${f}`
       }));
       resolve(result);
     });
