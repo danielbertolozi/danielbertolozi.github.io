@@ -178,7 +178,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexport
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.default = {\n    // baseUrl: \"https://api.github.com/repos/danielbertolozi/danielbertolozi.github.io/contents\",\n    baseUrl: \"http://localhost:9080\",\n    contentsFolder: \"/content\",\n    postsDivId: \"posts\"\n};\n\n\n//# sourceURL=webpack:///./dist/env.js?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.default = {\n    baseUrl: \"https://api.github.com/repos/danielbertolozi/danielbertolozi.github.io/contents\",\n    // baseUrl: \"http://localhost:9080\",\n    contentsFolder: \"/content\",\n    postsDivId: \"posts\"\n};\n\n\n//# sourceURL=webpack:///./dist/env.js?");
 
 /***/ }),
 
