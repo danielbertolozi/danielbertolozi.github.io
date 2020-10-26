@@ -1,3 +1,10 @@
+Time: Mon Oct 26 2020 11:25:01 GMT-0300
+Title: Design by Contract - Liskov Substitution Principle dive-in
+Tags:
+- programming
+- architecture
+- ase
+--/--/--
 # Design by Contract
 
 Most people have heard of SOLID, which is a set of good practices when it comes to designing software. The L in it, which stands for Liskov-substitution principle, tangents what is known as Design by Contract.
