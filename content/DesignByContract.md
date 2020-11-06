@@ -3,6 +3,8 @@ Title: Design by Contract - Liskov Substitution Principle dive-in
 Tags:
 - programming
 - architecture
+- javascript
+- typescript
 - ase
 --/--/--
 # Design by Contract
@@ -59,8 +61,20 @@ Inherting subclasses are allowed to weaken preconditions (but not strenghten the
 
 Also, DbC implies that a "supplier" (callee) should not try to verify that the contract is being followed correctly - it should "fail hard". This is a practice known as Offensive Programming (low error tolerance; opposed to defensive programming, which tries to soften errors effects - in that scenario, a supplier would need to figure out how to handle possible errors).
 
+## In Practice - Coding
+
+Some languages provide support out of the box, such as Eiffel, Closure, Kotlin, Scala, and others.
+
+If your preferred language (e.g. JS) doesn't provide it, still there's third party libs that can provide that.
+
+[In this repository](TBD), I've done an implementation using `babel-plugin-contracts`, which runs as a babel plugin (should be easy to implement on a project), and typescript.
+As you can see, I experimented with using Decorators for making such assertions, and I found that they did work well and provided easy to read code.
+
+**It's important that you do not ship your productive code with DbC assertions, as this may cause unnecessary overheads.**
+
 [1] Invariant is a mathematical concept, but, for what it matters, it's an unchangeable assumption/property. A class invariant is this constant, unchangeable assumption or property, to a class. It's bound to it's business context - you can't have negative days in a calendar.
 
 [2] Behavioral Subtyping is a type of subtyping relation (strong), which intends to bring semantic interoperability between types of a given hierarchy - a class may be replaced by its subtypes without altering correctness (adhesion of an algorithm to a spec) of a software program.
+
 
 Hope this is useful for someone. Otherwise, as they say, teaching is the best way of learning.
