@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Constants from "../../../Constants";
 import { Banner } from "../../elements/Banner/Banner";
+import { PageHeader } from "../../elements/PageHeader/PageHeader";
 import "./Home.css";
 
 
@@ -21,9 +22,7 @@ export default function Home() {
 
   return (
     <div className="home-container">
-      <header className="home-header">
-        <h1>danielbertolozi.github.io</h1>
-      </header>
+      <PageHeader text="danielbertolozi.github.io"/>
       <div className="home-tiles-container">
         <Banner
           text="Profissional"

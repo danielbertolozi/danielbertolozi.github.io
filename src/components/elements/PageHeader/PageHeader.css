@@ -1,0 +1,8 @@
+.home-header {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
