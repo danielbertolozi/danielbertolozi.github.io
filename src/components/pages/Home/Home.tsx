@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import Constants from "../../../Constants";
 import { Banner } from "../../elements/Banner/Banner";
 import "./Home.css";
 
@@ -27,15 +28,15 @@ export default function Home() {
         <Banner
           text="Profissional"
           onClick={navigateToProfessional}
-          bg="/assets/pro_banner.jpg" />
+          bg={Constants.PRO_BANNER_URL} />
         <Banner
           text="Carros"
           onClick={navigateToCars}
-          bg="/assets/cars_banner.jpg" />
+          bg={Constants.CARS_BANNER_URL} />
         <Banner
           text="Fotografia"
           onClick={navigateToPhotos}
-          bg="/assets/photo_banner.jpg" />
+          bg={Constants.PHOTOS_BANNER_URL} />
       </div>
     </div>
   );
