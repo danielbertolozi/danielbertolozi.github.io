@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "./Home.css";
 
 
 export default function Home() {
@@ -13,12 +14,12 @@ export default function Home() {
   }
 
   return (
-    <div>
-      <header>
+    <div className="home-container">
+      <header className="home-header">
         <h1>danielbertolozi.github.io</h1>
         <span>Lorem Y e etc</span>
       </header>
-      <div>
+      <div className="home-tiles-container">
         <div>
           <span>Profissional</span>
         </div>
