@@ -30,8 +30,21 @@ jobs:
 
       - name: Build
         run: npm run build
+  deploy:
+    needs: build
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
         with:
-          folder: build
+          name: github-pages
+          path: build
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
