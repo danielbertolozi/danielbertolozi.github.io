@@ -1,9 +1,12 @@
+import Constants from "../../../Constants";
 import "./Photography.css";
+import { BackgroundWithOverlay } from "../../elements/BackgroundWithOverlay/BackgroundWithOverlay";
 
 export default function Photography() {
     return (
-        <div className="photography-container">
+        <BackgroundWithOverlay
+          backgroundUrl={Constants.PHOTOS_BANNER_URL}>
             <span>Photos</span>
-        </div>
+        </BackgroundWithOverlay>
     );
 }

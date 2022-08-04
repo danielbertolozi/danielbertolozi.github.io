@@ -10,13 +10,13 @@ export function Banner(props: IBannerProps) {
   return (
       <div 
         className="clickable banner-container"
+        onClick={props.onClick}
         style={{
           backgroundImage: `url(${props.bg})`
         }}>
         <div className="banner-inner-container">
           <span
-            className="banner-text"
-            onClick={props.onClick}>{props.text}</span>
+            className="banner-text">{props.text}</span>
         </div>
       </div>
   );
