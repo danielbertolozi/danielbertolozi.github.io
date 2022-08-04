@@ -21,3 +21,6 @@ code {
 .clickable:hover {
   cursor: pointer;
 }
+#root {
+  height: 100%;
+}
