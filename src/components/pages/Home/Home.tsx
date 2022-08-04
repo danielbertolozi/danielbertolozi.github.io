@@ -13,6 +13,10 @@ export default function Home() {
     nav("/photos");
   }
 
+  function navigateToProfessional() {
+    nav("/pro");
+  }
+
   return (
     <div className="home-container">
       <header className="home-header">
@@ -20,13 +24,13 @@ export default function Home() {
         <span>Lorem Y e etc</span>
       </header>
       <div className="home-tiles-container">
-        <div>
-          <span>Profissional</span>
+        <div className="clickable">
+          <span onClick={navigateToProfessional}>Profissional</span>
         </div>
-        <div>
+        <div className="clickable">
           <span onClick={navigateToCars}>Carros</span>
         </div>
-        <div>
+        <div className="clickable">
           <span onClick={navigateToPhotos}>Fotografia</span>
         </div>
       </div>
