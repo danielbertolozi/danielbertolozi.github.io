@@ -1,23 +1,17 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Cars from './pages/Cars';
+import Home from './pages/Home';
+import Photography from './pages/Photography';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>danielbertolozi.github.io</h1>
-        <span>Lorem Y e etc</span>
-      </header>
-      <div>
-        <div>
-          <span>Profissional</span>
-        </div>
-        <div>
-          <span>Carros</span>
-        </div>
-        <div>
-          <span>Fotografia</span>
-        </div>
-      </div>
+      <Routes>
+        <Route path="/" element={ <Home /> }/>
+        <Route path="/cars" element={ <Cars /> }/>
+        <Route path="/photos" element={ <Photography /> }/>
+      </Routes>
     </div>
   );
 }
