@@ -7,7 +7,9 @@ export default function Cars() {
     return (
         <BackgroundWithOverlay
           backgroundUrl={Constants.CARS_BANNER_URL}>
-          <PageHeader text="Carros"/>
+          <PageHeader
+            showBackButton={true}
+            text="Carros"/>
         </BackgroundWithOverlay>
     );
 }

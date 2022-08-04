@@ -7,7 +7,7 @@ export default function Photography() {
     return (
         <BackgroundWithOverlay
           backgroundUrl={Constants.PHOTOS_BANNER_URL}>
-          <PageHeader text="Fotografia"/>
+          <PageHeader showBackButton={true} text="Fotografia"/>
         </BackgroundWithOverlay>
     );
 }

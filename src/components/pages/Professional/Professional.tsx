@@ -7,7 +7,7 @@ export default function Professional() {
     return (
         <BackgroundWithOverlay
           backgroundUrl={Constants.PRO_BANNER_URL}>
-          <PageHeader text="Profissional"/>
+          <PageHeader showBackButton={true} text="Profissional"/>
         </BackgroundWithOverlay>
     );
 }
