@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { Banner } from "../../elements/Banner/Banner";
 import "./Home.css";
 
 
@@ -21,18 +22,20 @@ export default function Home() {
     <div className="home-container">
       <header className="home-header">
         <h1>danielbertolozi.github.io</h1>
-        <span>Lorem Y e etc</span>
       </header>
       <div className="home-tiles-container">
-        <div className="clickable">
-          <span onClick={navigateToProfessional}>Profissional</span>
-        </div>
-        <div className="clickable">
-          <span onClick={navigateToCars}>Carros</span>
-        </div>
-        <div className="clickable">
-          <span onClick={navigateToPhotos}>Fotografia</span>
-        </div>
+        <Banner
+          text="Profissional"
+          onClick={navigateToProfessional}
+          bg="/assets/pro_banner.jpg" />
+        <Banner
+          text="Carros"
+          onClick={navigateToCars}
+          bg="/assets/cars_banner.jpg" />
+        <Banner
+          text="Fotografia"
+          onClick={navigateToPhotos}
+          bg="/assets/photo_banner.jpg" />
       </div>
     </div>
   );
