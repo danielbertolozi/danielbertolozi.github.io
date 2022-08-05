@@ -3,14 +3,13 @@ import "./Photography.css";
 import { BackgroundWithOverlay } from "../../elements/BackgroundWithOverlay/BackgroundWithOverlay";
 import { PageHeader } from "../../elements/PageHeader/PageHeader";
 import { ImageOutline, LogoDropbox } from "react-ionicons";
-import axios from "axios";
+import { FlickrClient } from "../../../Photography/FlickrClient";
 
 export default function Photography() {
-  axios.get("https://catfact.ninja/fact").then((response) => {
+  new FlickrClient().getPhotos().then((response) => {
+    alert("Provided API Key " + process.env.REACT_APP_FLICKR_KEY);
     alert(JSON.stringify(response.data));
-  }).catch((reason) => {
-    alert(JSON.stringify(reason));
-  });
+  })
     return (
         <BackgroundWithOverlay
           backgroundUrl={Constants.PHOTOS_BANNER_URL}>
