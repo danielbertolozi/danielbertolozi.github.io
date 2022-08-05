@@ -3,8 +3,14 @@ import "./Photography.css";
 import { BackgroundWithOverlay } from "../../elements/BackgroundWithOverlay/BackgroundWithOverlay";
 import { PageHeader } from "../../elements/PageHeader/PageHeader";
 import { ImageOutline, LogoDropbox } from "react-ionicons";
+import axios from "axios";
 
 export default function Photography() {
+  axios.get("https://catfact.ninja/fact").then((response) => {
+    alert(JSON.stringify(response.data));
+  }).catch((reason) => {
+    alert(JSON.stringify(reason));
+  });
     return (
         <BackgroundWithOverlay
           backgroundUrl={Constants.PHOTOS_BANNER_URL}>
