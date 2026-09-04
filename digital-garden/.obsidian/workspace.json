@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bem vindo.md",
+                "file": "BMW 540i E34.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bem vindo"
-            }
-          }
-        ]
-      },
-      {
-        "id": "a534c436e834ae78",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "25b156b7a8f68973",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "BMW 540i E34"
             }
           }
         ]
@@ -207,14 +191,18 @@
   },
   "active": "c22393d5d2789adc",
   "lastOpenFiles": [
-    "BMW 540i E34.md",
     "Carros.md",
+    "Bem vindo.md",
+    "Como eu uso um Mac Mini como servidor barato.md",
+    "Compute.md",
+    "Pasted image 20260904005126.png",
+    "Pasted image 20260904004318.png",
+    "BMW 540i E34.md",
     "ECU Tuning - ignição.md",
     "Gol GTS.md",
     "Meu AP aspirado dos sonhos.md",
     "Remapeando minha E34.md",
     "Preparação com comandos originais de AP.md",
-    "Bem vindo.md",
     "Pasted image 20260902233032.png",
     "Pasted image 20260902232859.png",
     "Pasted image 20260902233042.png",

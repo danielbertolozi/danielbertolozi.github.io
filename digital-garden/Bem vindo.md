@@ -8,3 +8,5 @@ Um _digital garden_ é um misto entre website e blog - vamos dizer que seja um c
 -----
 
 - [[Carros]]
+- [[Compute]]
+- 
