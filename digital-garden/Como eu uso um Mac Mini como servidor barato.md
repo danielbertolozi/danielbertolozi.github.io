@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 A algum tempo atrás, eu me revoltei com a escalada de preços de serviços de Cloud Storage, fora a _impossibilidade_ de encontrar algum confiável com modelo de pagamento "Lifetime". Na prática, só o Filen, mas custaria bem caro para ter 200GB.
 
 Na busca de um servidor caseiro, eu tracei os seguintes requerimentos:

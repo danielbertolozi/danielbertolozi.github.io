@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "BMW 540i E34"
             }
+          },
+          {
+            "id": "2d11b8304d23e666",
+            "type": "leaf",
+            "state": {
+              "type": "digital-garden-publication-center",
+              "state": {},
+              "icon": "book-up",
+              "title": "Publication Center"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,16 +200,20 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "c22393d5d2789adc",
+  "active": "2d11b8304d23e666",
   "lastOpenFiles": [
+    "Histórico de manutenções.md",
+    "BMW 540i E34.md",
+    "Wishes.md",
+    "Instalando ventoinhas elétricas na E34.md",
+    "Pasted image 20260906003309.png",
     "Carros.md",
     "Bem vindo.md",
-    "Como eu uso um Mac Mini como servidor barato.md",
     "Compute.md",
+    "Como eu uso um Mac Mini como servidor barato.md",
+    "ECU Tuning - ignição.md",
     "Pasted image 20260904005126.png",
     "Pasted image 20260904004318.png",
-    "BMW 540i E34.md",
-    "ECU Tuning - ignição.md",
     "Gol GTS.md",
     "Meu AP aspirado dos sonhos.md",
     "Remapeando minha E34.md",

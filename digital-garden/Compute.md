@@ -1,4 +1,6 @@
-
+---
+dg-publish: true
+---
 Além de trabalhar com software, sempre fui entusiasta com tecnologia desde mais novo.
 Atualmente, meu "setup" é o seguinte:
 
