@@ -6,6 +6,8 @@ dg-publish: true
 [[Preparação com comandos originais de AP]]
 [[Meu AP aspirado dos sonhos]]
 
+![[IMG_2051.jpg]]
+
 ----
 # Sem querer, uma escola: A história do Golzinho comigo
 

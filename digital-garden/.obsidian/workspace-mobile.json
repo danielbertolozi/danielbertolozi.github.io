@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BMW 540i E34.md",
+                "file": "Gol GTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BMW 540i E34"
+              "title": "Gol GTS"
             }
           }
         ]
@@ -117,7 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BMW 540i E34.md",
+            "file": "Gol GTS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -174,9 +174,10 @@
   },
   "active": "6cb6d43f3093f427",
   "lastOpenFiles": [
+    "IMG_2051.jpg",
     "Carros.md",
-    "Pintura.md",
     "BMW 540i E34.md",
+    "Pintura.md",
     "Histórico de manutenções.md",
     "20260907_183618.jpg",
     "Bem vindo.md",
