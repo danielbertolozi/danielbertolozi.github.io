@@ -1,3 +1,6 @@
+---
+dg-publish:
+---
 Quantidade de tinta para algumas peças: 
 
 Parachoque 

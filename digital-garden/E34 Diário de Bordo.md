@@ -1,7 +1,7 @@
 ---
 dg-publish: true
 ---
-### 07/09/2026
+### 07/09/2026 - Primeira volta pós revisões
 
 O parachoque ficou pronto da pintura e foi instalado, junto dos acabamentos dianteiros. Notei que faltam alguns acabamentos, do lado dos neblinas.
 Trocamos o oring da termostática e melhorou bastante o vazamento, mas não resolveu. Como eu reparei uma trinca na mangueira do radiador, vou esperar chegar a nova para daí refazermos essa vedação da termostática, daí com cola. 
@@ -9,8 +9,13 @@ Trocamos uma coifa da homocinética que estava rasgada (lado diferencial, do mot
 Trocamos as duas polias menores (60mm). 
 O carro aparentemente tem um problema de ar falso relacionado ao sistema de PCV. Substituímos a tampa e a membrana mas não resolveu. Melhor era trocar a carcaça inteira. Caso não solucionar, fazer um plate para isolar tudo. 
 Notei algumas coisas meio erráticas com relação aos sensores de temp água. Quero trocar os dois por sensores Meyle.
-Nota pessoal: conseguir devolução de 3 coifas das homocinéticas, uma correia (do mercado livre), e parcial de valor das polias. 
+*Nota pessoal: conseguir devolução de 3 coifas das homocinéticas, uma correia (do mercado livre), e parcial de valor das polias.* 
 Notei um mal contato no farol lado motorista, trincado no acabamento da placa. 
+
+Afazeres novos:
+- Trocar mangueira superior radiador lado motorista
+- Passar fita isolante num rasgo no tubo da admissão (perto do atuador de lenta)
+- Trocar PCV inteira
 
 ![[20260907_183618.jpg]]
 
@@ -36,4 +41,5 @@ Instalei alguns grampos que chegaram do aliexpress.
 ### 08/08/2026
 
 Desmontei os neblinas para reforma. 
-Removi o cárter para passar loctite na bomba de óleo. Nenhum parafuso tinha caído \o/ mas eles estavam sim bem frouxos. Achei um parafuso quebrado no cárter. Limpeza completa da bomba de óleo, de cárter, e da parte inferior do motor. Remontagem do cárter com junta nova, seo cola, com óleo Motul 10w40, óleo novo, filtro novo Hengst. Desamassei o cárter, pintei de preto, passei solda fria em algumas microfissuras que tavam dando uma umedecida.
+Removi o cárter para passar loctite na bomba de óleo. Nenhum parafuso tinha caído \o/ mas eles estavam sim bem frouxos. Achei um parafuso quebrado no cárter. Limpeza completa da bomba de óleo, de cárter, e da parte inferior do motor. Remontagem do cárter com junta nova, sem cola, com óleo Motul 10w40, filtro novo Hengst. Desamassei o cárter, pintei de preto, passei solda fria em algumas microfissuras que tavam dando uma umedecida.
+O cárter ficou dando uma umedecida em um canto, precisaria passar um pouco de cola para vedar 100%.

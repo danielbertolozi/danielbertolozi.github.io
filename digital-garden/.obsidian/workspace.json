@@ -13,26 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BMW 540i E34.md",
+                "file": "Pintura.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BMW 540i E34"
+              "title": "Pintura"
             }
           },
           {
-            "id": "2d11b8304d23e666",
+            "id": "70001dfa6bb8d3a9",
             "type": "leaf",
             "state": {
-              "type": "digital-garden-publication-center",
-              "state": {},
-              "icon": "book-up",
-              "title": "Publication Center"
+              "type": "markdown",
+              "state": {
+                "file": "E34 Part Numbers e Adaptações.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "E34 Part Numbers e Adaptações"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +60,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -190,22 +193,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "2d11b8304d23e666",
+  "active": "c22393d5d2789adc",
   "lastOpenFiles": [
-    "Histórico de manutenções.md",
     "BMW 540i E34.md",
-    "Wishes.md",
+    "E34 Part Numbers e Adaptações.md",
     "Instalando ventoinhas elétricas na E34.md",
+    "E34 Diário de Bordo.md",
+    "E34 Todos e Wishes.md",
+    "Wishes.md",
     "Pasted image 20260906003309.png",
     "Carros.md",
     "Bem vindo.md",
