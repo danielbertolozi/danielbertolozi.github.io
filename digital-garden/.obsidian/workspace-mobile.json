@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Histórico de manutenções.md",
+                "file": "BMW 540i E34.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Histórico de manutenções"
+              "title": "BMW 540i E34"
             }
           }
         ]
@@ -117,7 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Histórico de manutenções.md",
+            "file": "BMW 540i E34.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -174,8 +174,11 @@
   },
   "active": "6cb6d43f3093f427",
   "lastOpenFiles": [
-    "BMW 540i E34.md",
     "Carros.md",
+    "Pintura.md",
+    "BMW 540i E34.md",
+    "Histórico de manutenções.md",
+    "20260907_183618.jpg",
     "Bem vindo.md",
     "Sem título.base"
   ]
