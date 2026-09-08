@@ -6,7 +6,9 @@ dg-publish: true
 O parachoque ficou pronto da pintura e foi instalado, junto dos acabamentos dianteiros. Notei que faltam alguns acabamentos, do lado dos neblinas.
 Trocamos o oring da termostática e melhorou bastante o vazamento, mas não resolveu. Como eu reparei uma trinca na mangueira do radiador, vou esperar chegar a nova para daí refazermos essa vedação da termostática, daí com cola. 
 Trocamos uma coifa da homocinética que estava rasgada (lado diferencial, do motorista).
-Trocamos as duas polias menores (60mm). Nota pessoal: conseguir devolução de 3 homocinéticas 
+Trocamos as duas polias menores (60mm). 
+O carro aparentemente tem um problema de ar falso relacionado ao sistema de PCV. Substituímos a tampa e a membrana mas não resolveu. Melhor era trocar a carcaça inteira. Caso não solucionar, fazer um plate para isolar tudo. 
+Nota pessoal: conseguir devolução de 3 coifas das homocinéticas, uma correia (do mercado livre), e parcial de valor das polias. 
 
 ### 05/09/2026
 
