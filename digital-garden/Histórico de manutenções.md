@@ -1,6 +1,8 @@
 ---
 dg-publish: true
 ---
+
+
 ### 05/09/2026
 
 O defletor chegou essa semana, pintei ele em epoxy usando um Spray da Rust Oleum, muito bom por sinal. Elaborei e instalei um chicote para o acionamento das ventoinhas, usando termostática de Honda Fit. Fizemos um suporte para o porta relés, troquei algumas porcas velhas por porcas mais novas por estética. Pintura do defletor novo feito em aço, usando spray epoxy da Rust Oleum. Elaboração do chicote de acionamento da ventoinha com cebolão de Fit. Pré instalação de relés, chicotes, radiador e ventoinhas no lugar. Suporte para porta relés. Ler mais em [[Instalando ventoinhas elétricas na E34]]
