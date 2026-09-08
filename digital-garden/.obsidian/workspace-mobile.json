@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "Carros"
             }
+          },
+          {
+            "id": "4637513ed2ee82f6",
+            "type": "leaf",
+            "state": {
+              "type": "digital-garden-publication-center",
+              "state": {},
+              "icon": "book-up",
+              "title": "Publication Center"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +183,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "6cb6d43f3093f427",
+  "active": "4637513ed2ee82f6",
   "lastOpenFiles": [
     "Gol GTS.md",
     "Carros.md",
