@@ -8,8 +8,10 @@ Trocamos o oring da termostática e melhorou bastante o vazamento, mas não reso
 Trocamos uma coifa da homocinética que estava rasgada (lado diferencial, do motorista).
 Trocamos as duas polias menores (60mm). 
 O carro aparentemente tem um problema de ar falso relacionado ao sistema de PCV. Substituímos a tampa e a membrana mas não resolveu. Melhor era trocar a carcaça inteira. Caso não solucionar, fazer um plate para isolar tudo. 
-Notei algumas coisas meio erráticas com relação aos sensores de tempo água. 
+Notei algumas coisas meio erráticas com relação aos sensores de temp água. Quero trocar os dois por sensores Meyle.
 Nota pessoal: conseguir devolução de 3 coifas das homocinéticas, uma correia (do mercado livre), e parcial de valor das polias. 
+
+
 
 ### 05/09/2026
 
