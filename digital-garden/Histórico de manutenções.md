@@ -1,7 +1,12 @@
 ---
 dg-publish: true
 ---
+### 07/09/2026
 
+O parachoque ficou pronto da pintura e foi instalado, junto dos acabamentos dianteiros. Notei que faltam alguns acabamentos, do lado dos neblinas.
+Trocamos o oring da termostática e melhorou bastante o vazamento, mas não resolveu. Como eu reparei uma trinca na mangueira do radiador, vou esperar chegar a nova para daí refazermos essa vedação da termostática, daí com cola. 
+Trocamos uma coifa da homocinética que estava rasgada (lado diferencial, do motorista).
+Trocamos as duas polias menores (60mm). Nota pessoal: conseguir devolução de 3 homocinéticas 
 
 ### 05/09/2026
 

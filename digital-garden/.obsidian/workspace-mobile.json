@@ -117,6 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Histórico de manutenções.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
