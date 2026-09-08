@@ -25,3 +25,4 @@ Fizemos um defletor no formato do radiador, que é fixado nele mesmo por 4 bucha
 Esse é basicamente o que foi feito na parte elétrica. No meu carro, dei acabamento em malha náutica para os terras, e fita tecido para os positivos.
 
 ![[20260905_140527.jpg]]
+
