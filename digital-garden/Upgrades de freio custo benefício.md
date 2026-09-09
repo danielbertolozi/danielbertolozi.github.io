@@ -18,4 +18,8 @@ Qualquer fluído DOT 5.1 vai trazer uma resistência a mais ao sistema. Atençã
 
 Discos maiores/mais largos vão trazer maior área de superfície e ajudar a dissipar melhor o calor. 
 
-No meu carro eu utilizo discos de 330mm da AMG CLK55. Código Fremax: 
+No meu carro eu utilizo discos de 330mm da AMG CLK55. É um disco perfurado de fábrica, com dimensões excelentes, porém bem pesados (9kg cada disco). Boa opção para fazer um freio super dimensionado. Código Fremax: BD6478
+
+# Upgrade: Pinças
+
+Caso necessário, um upgrade barato para pinças de dois pistões seria da CRV
