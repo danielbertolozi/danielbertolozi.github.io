@@ -1,6 +1,8 @@
 ---
 dg-publish: true
 ---
+### 
+
 ### 07/09/2026 - Primeira volta pós revisões
 
 O parachoque ficou pronto da pintura e foi instalado, junto dos acabamentos dianteiros. Notei que faltam alguns acabamentos, do lado dos neblinas.

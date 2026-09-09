@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carros.md",
+                "file": "E34 Diário de Bordo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Carros"
+              "title": "E34 Diário de Bordo"
             }
           },
           {
@@ -31,8 +31,7 @@
               "title": "Publication Center"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,11 +182,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "4637513ed2ee82f6",
+  "active": "6cb6d43f3093f427",
   "lastOpenFiles": [
-    "Gol GTS.md",
-    "Carros.md",
     "BMW 540i E34.md",
+    "Carros.md",
+    "Gol GTS.md",
     "Truques E34 e Bmw em geral.md",
     "20260906_175402.jpg",
     "Instalando ventoinhas elétricas na E34.md",
