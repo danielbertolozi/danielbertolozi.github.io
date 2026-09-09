@@ -1,7 +1,9 @@
 ---
 dg-publish: true
 ---
-### 
+### 09/09/2026
+Dei um pulo na oficina pra fazer um teste. Pelo visto, apareceu um rasgo no tubo da admissão (no joelho que vai pro atuador de lenta) que tava dando ar falso e deixando o carro todo errado. Isolei tudo com fita e o carro melhorou muito. O OBC voltou a funcionar, descobri que a lampada da luz da injeção não acende, e instalei a porta de combustível de volta. 
+Dia de varias compras pra e34: uma PCV nova Vaico, dois sensores de ECT meyle, 
 
 ### 07/09/2026 - Primeira volta pós revisões
 
