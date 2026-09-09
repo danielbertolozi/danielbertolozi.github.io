@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carros.md",
+                "file": "Civic SI Upgrades e Adaptações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Carros"
+              "title": "Civic SI Upgrades e Adaptações"
             }
           },
           {
@@ -184,9 +184,11 @@
   },
   "active": "6cb6d43f3093f427",
   "lastOpenFiles": [
+    "Civic SI.md",
+    "Civic SI Upgrades e Adaptações.md",
+    "Carros.md",
     "BMW 540i E34.md",
     "E34 Diário de Bordo.md",
-    "Carros.md",
     "Gol GTS.md",
     "Truques E34 e Bmw em geral.md",
     "20260906_175402.jpg",
