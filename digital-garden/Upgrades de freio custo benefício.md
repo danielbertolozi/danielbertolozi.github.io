@@ -16,7 +16,8 @@ Tem alguns kits prontos na Kuhnbrakes, mas se quiser fazer com pouco gasto, a di
 # Melhoria Importante: Fluído
 
 Qualquer fluído DOT 5.1 vai trazer uma resistência a mais ao sistema. Atenção: fluido 5.1 requer trocas mais frequentes. Nada que não possa ser feito na garagem de casa, se comprar uma seringa/sangrador com gatilho. 
-Eu uso Liquimoly. R$
+Eu uso Liquimoly. R$80/litro
+Já usei Motul, Fuchs, 
 
 # Melhoria subestimada: Pneus e Geometria
 
