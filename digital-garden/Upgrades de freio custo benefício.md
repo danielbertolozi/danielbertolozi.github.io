@@ -11,7 +11,7 @@ Vou listar abaixo, na minha experiência, o que é mais efetivo em termos de mel
 
 Os flexíveis de borracha amolecem e expandem com o calor do fluido de freio, diminuindo assim a pressão efetiva na linha e a força de frenagem. 
 Tem alguns kits prontos na Kuhnbrakes, mas se quiser fazer com pouco gasto, a dica é pegar os flexíveis originais, limpar bem, e levar até uma casa de conexões para recrimpar com mangueira em malha de inox. Gasto vai sair bem baixo. 
-**Eu uso Kuhnbrakes. R$550**
+**Eu uso Kuhnbrakes. R$550 novo**
 
 # Melhoria Importante: Fluído
 
