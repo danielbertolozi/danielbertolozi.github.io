@@ -35,10 +35,13 @@ Para a maioria dos usos os itens listados acima serão suficientes. Os itens aba
 Discos maiores/mais largos vão trazer maior área de superfície e ajudar a dissipar melhor o calor. 
 
 No meu carro eu utilizo discos de 330mm da AMG CLK55. É um disco perfurado de fábrica, com dimensões excelentes, porém bem pesados (9kg cada disco). Boa opção para fazer um freio super dimensionado. Código Fremax: BD6478
+**Preço que paguei: R$600 o par** - rapaz comprou e não usou
 
 # Upgrade: Pinças
 
 Caso necessário, um upgrade barato para pinças de dois pistões seria da CRV 2007-2011 (Part Number: 45019-SHJ-A01). Para qualquer mudança de pinças é necessário fabricar um cavalete adaptador. 
+**Eu paguei R$600 com pastilhas**
+Para elaborar o cavalete, projetamos e cortamos em aço. **Custo total: R$1200**
 
 # Upgrade: Cilindro Mestre
 
