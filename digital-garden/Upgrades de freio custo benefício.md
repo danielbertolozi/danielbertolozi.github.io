@@ -1,0 +1,21 @@
+---
+dg-publish: true
+---
+O Civic SI de 8a geração é notório por ter um freio subdimensionado - não pela falta de força de alicatagem, mas pela pouca resistência a calor.
+
+Vou listar abaixo, na minha experiência, o que é mais efetivo em termos de melhoria de frenagem, em ordem de prioridade: 
+
+# Melhoria Principal: Flexível 
+
+Os flexíveis de borracha amolecem e expandem com o calor do fluido de freio, diminuindo assim a pressão efetiva na linha e a força de frenagem. 
+Tem alguns kits prontos na Kuhnbrakes, mas se quiser fazer com pouco gasto, a dica é pegar os flexíveis originais, limpar bem, e levar até uma casa de conexões para recrimpar com mangueira em malha de inox. Gasto vai sair bem baixo. 
+
+# Melhoria Importante: Fluído
+
+Qualquer fluído DOT 5.1 vai trazer uma resistência a mais ao sistema. Atenção: fluido 5.1 requer trocas mais frequentes. Nada que não possa ser feito na garagem de casa, se comprar uma seringa/sangrador com gatilho. 
+
+# Upgrade: Discos
+
+Discos maiores/mais largos vão trazer maior área de superfície e ajudar a dissipar melhor o calor. 
+
+No meu carro eu utilizo discos de 330mm da AMG CLK55. Código Fremax: 
