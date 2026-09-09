@@ -11,11 +11,12 @@ Vou listar abaixo, na minha experiência, o que é mais efetivo em termos de mel
 
 Os flexíveis de borracha amolecem e expandem com o calor do fluido de freio, diminuindo assim a pressão efetiva na linha e a força de frenagem. 
 Tem alguns kits prontos na Kuhnbrakes, mas se quiser fazer com pouco gasto, a dica é pegar os flexíveis originais, limpar bem, e levar até uma casa de conexões para recrimpar com mangueira em malha de inox. Gasto vai sair bem baixo. 
-Eu uso Kuhnbrakes. R$
+**Eu uso Kuhnbrakes. R$550**
 
 # Melhoria Importante: Fluído
 
 Qualquer fluído DOT 5.1 vai trazer uma resistência a mais ao sistema. Atenção: fluido 5.1 requer trocas mais frequentes. Nada que não possa ser feito na garagem de casa, se comprar uma seringa/sangrador com gatilho. 
+Eu uso Liquimoly. R$
 
 # Melhoria subestimada: Pneus e Geometria
 
