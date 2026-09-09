@@ -22,4 +22,8 @@ No meu carro eu utilizo discos de 330mm da AMG CLK55. É um disco perfurado de f
 
 # Upgrade: Pinças
 
-Caso necessário, um upgrade barato para pinças de dois pistões seria da CRV 2007-2011 (Part Number:)
+Caso necessário, um upgrade barato para pinças de dois pistões seria da CRV 2007-2011 (Part Number: 45019-SHJ-A01). Para qualquer mudança de pinças é necessário fabricar um cavalete adaptador. 
+
+# Upgrade: Cilindro Mestre
+
+No meu carro nunca mexi nessa parte e o freio sempre funcionou bem, porém... Da mesma forma, é possível se usar o cilindro mestre da CRV de mesmo ano. 
