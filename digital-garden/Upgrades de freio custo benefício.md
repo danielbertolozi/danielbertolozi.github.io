@@ -5,7 +5,7 @@ O Civic SI de 8a geração é notório por ter um freio subdimensionado - não p
 
 ![[IMG_5929(1).jpg]]
 
-Vou listar abaixo, na minha experiência, o que é mais efetivo em termos de melhoria de frenagem, em ordem de prioridade: 
+Vou listar abaixo, na minha experiência, o que é mais efetivo em termos de melhoria de frenagem, em ordem de prioridade. Vou listar também minha escolha e valores que paguei, na época. 
 
 # Melhoria Principal: Flexível 
 
@@ -16,8 +16,8 @@ Tem alguns kits prontos na Kuhnbrakes, mas se quiser fazer com pouco gasto, a di
 # Melhoria Importante: Fluído
 
 Qualquer fluído DOT 5.1 vai trazer uma resistência a mais ao sistema. Atenção: fluido 5.1 requer trocas mais frequentes. Nada que não possa ser feito na garagem de casa, se comprar uma seringa/sangrador com gatilho. 
-Eu uso Liquimoly. R$80/litro
-Já usei Motul, Fuchs, 
+**Eu uso Liquimoly. R$80/litro**
+Já usei Motul, Fuchs, Tirreno, todos excelentes. 
 
 # Melhoria subestimada: Pneus e Geometria
 
