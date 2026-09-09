@@ -46,3 +46,5 @@ Para elaborar o cavalete, projetamos e cortamos em aço. **Custo total: R$1200**
 # Upgrade: Cilindro Mestre
 
 No meu carro nunca mexi nessa parte e o freio sempre funcionou bem, porém... Da mesma forma, é possível se usar o cilindro mestre da CRV de mesmo ano. Part Number: 46100-SWA-A01
+
+Meu custo total com meu upgrade: ~R$3100
