@@ -22,4 +22,4 @@ No meu carro eu utilizo discos de 330mm da AMG CLK55. É um disco perfurado de f
 
 # Upgrade: Pinças
 
-Caso necessário, um upgrade barato para pinças de dois pistões seria da CRV
+Caso necessário, um upgrade barato para pinças de dois pistões seria da CRV 2007-2011 (Part Number:)
