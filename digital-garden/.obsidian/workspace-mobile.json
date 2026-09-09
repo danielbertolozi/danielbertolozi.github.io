@@ -31,7 +31,8 @@
               "title": "Publication Center"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
