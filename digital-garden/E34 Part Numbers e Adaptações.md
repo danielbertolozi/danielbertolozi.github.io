@@ -36,8 +36,17 @@ Sensor temp (preto/direito): 12621747281 / substituído por 12621710535
 Tubo de borracha da admissão: 13711747995 ou 13711736199
 PCV (admissão): 11617501562
 MAF: 13621702078
+Lâmpadas do painel: 62111368299 / lampada T5
+
+Capacitores do painel que normalmente falham:
+- ​**3× 220 µF (25V or 35V)**
+- ​**2× 22 µF (50V or 63V)**
+
 
 ## Adaptações
 
 Membrana PCV - serve do Jetta 200
 Tampa da PCV - do Jetta 200, precisa desbastar um pouco a base
+
+Pra apoiar melhor o radiador, cortar um pedaço de mangueira de combustível e enrolar na "perna" do grampo dele
+![[20260906_175402.jpg]]
