@@ -31,7 +31,8 @@
               "title": "Publication Center"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +183,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "6cb6d43f3093f427",
+  "active": "4637513ed2ee82f6",
   "lastOpenFiles": [
     "BMW 540i E34.md",
     "E34 Part Numbers e Adaptações.md",
