@@ -41,3 +41,6 @@ MAF: 13621702078
 
 Membrana PCV - serve do Jetta 200
 Tampa da PCV - do Jetta 200, precisa desbastar um pouco a base
+
+Pra apoiar melhor o radiador, cortar um pedaço de mangueira de combustível e enrolar na "perna" do grampo dele
+![[20260906_175402.jpg]]
