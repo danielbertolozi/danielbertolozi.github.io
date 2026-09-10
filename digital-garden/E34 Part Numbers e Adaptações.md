@@ -38,6 +38,10 @@ PCV (admissão): 11617501562
 MAF: 13621702078
 Lâmpadas do painel: 62111368299 / lampada T5
 
+Capacitores do painel que normalmente falham:
+- ​**3× 220 µF (25V or 35V)**
+- ​**2× 22 µF (50V or 63V)**
+
 
 ## Adaptações
 
