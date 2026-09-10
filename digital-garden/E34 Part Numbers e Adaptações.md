@@ -36,6 +36,8 @@ Sensor temp (preto/direito): 12621747281 / substituído por 12621710535
 Tubo de borracha da admissão: 13711747995 ou 13711736199
 PCV (admissão): 11617501562
 MAF: 13621702078
+Lâmpadas do painel: 62111368299
+
 
 ## Adaptações
 
