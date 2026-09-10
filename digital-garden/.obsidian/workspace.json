@@ -22,20 +22,58 @@
             }
           },
           {
+            "id": "daa455550331db4f",
+            "type": "leaf",
+            "state": {
+              "type": "digital-garden-publication-center",
+              "state": {},
+              "icon": "book-up",
+              "title": "Publication Center"
+            }
+          },
+          {
             "id": "70001dfa6bb8d3a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "E34 Part Numbers e Adaptações.md",
+                "file": "BMW 540i E34.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "E34 Part Numbers e Adaptações"
+              "title": "BMW 540i E34"
+            }
+          },
+          {
+            "id": "6998a97451cb69a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "E34 Diário de Bordo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "E34 Diário de Bordo"
+            }
+          },
+          {
+            "id": "db38e243a62cb807",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Sem título.base",
+                "viewName": "Tabela"
+              },
+              "icon": "lucide-table",
+              "title": "Sem título"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,12 +241,15 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "c22393d5d2789adc",
+  "active": "70001dfa6bb8d3a9",
   "lastOpenFiles": [
+    "E34 Diário de Bordo.md",
+    "E34 Gastos.md",
     "BMW 540i E34.md",
     "E34 Part Numbers e Adaptações.md",
+    "Sem título.base",
+    "Sem título 1.base",
     "Instalando ventoinhas elétricas na E34.md",
-    "E34 Diário de Bordo.md",
     "E34 Todos e Wishes.md",
     "Wishes.md",
     "Pasted image 20260906003309.png",
