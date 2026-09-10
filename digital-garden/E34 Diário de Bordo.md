@@ -1,7 +1,6 @@
 ---
 dg-publish: true
 ---
-[[Registro de gastos]]
 ### 10/09/2026
 
 BMW foi levada para lavar a parte de baixo do motor com água quente. Cabo do acelerador tá ficando agarrado.
