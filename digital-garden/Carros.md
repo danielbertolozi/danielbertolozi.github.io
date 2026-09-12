@@ -5,3 +5,5 @@ dg-publish: true
 [[Gol GTS]]
 [[BMW 540i E34]]
 [[Pintura]]
+[[Lojas automotivas de escolha]]
+
