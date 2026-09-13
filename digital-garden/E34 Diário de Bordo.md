@@ -2,7 +2,12 @@
 dg-publish: true
 ---
 
-### 
+### 13/09/2026
+
+Hoje tirei para finalizar as manutenções da E34. Foi feito: 
+
+- Troca da mangueira do radiador lado motorista 
+- Troca dos dois sensores de tenperatura
 ### 10/09/2026
 
 BMW foi levada para lavar a parte de baixo do motor com água quente. Cabo do acelerador tá ficando agarrado.
