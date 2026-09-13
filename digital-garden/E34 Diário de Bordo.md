@@ -6,8 +6,10 @@ dg-publish: true
 
 Hoje tirei para finalizar as manutenções da E34. Foi feito: 
 
-- Troca da mangueira do radiador lado motorista 
-- Troca dos dois sensores de tenperatura
+- Troca da mangueira do radiador lado motorista (Vaico) 
+- Troca dos dois sensores de tenperatura (Meyle)
+- Troca da membrana da PCV da admissão (Vaico)
+- Troca do liquido de arrefecimento por Aditivo (Peak para carros europeus)
 ### 10/09/2026
 
 BMW foi levada para lavar a parte de baixo do motor com água quente. Cabo do acelerador tá ficando agarrado.
