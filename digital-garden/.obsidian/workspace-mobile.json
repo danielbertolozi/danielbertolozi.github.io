@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carros.md",
+                "file": "E34 Diário de Bordo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Carros"
+              "title": "E34 Diário de Bordo"
             }
           },
           {
@@ -127,7 +127,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Carros.md",
+            "file": "E34 Diário de Bordo.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -184,9 +184,9 @@
   },
   "active": "6cb6d43f3093f427",
   "lastOpenFiles": [
-    "Lojas automotivas de escolha.md",
-    "Carros.md",
     "BMW 540i E34.md",
+    "Carros.md",
+    "Lojas automotivas de escolha.md",
     "E34 Part Numbers e Adaptações.md",
     "Civic SI.md",
     "IMG_6105(1).jpg",
