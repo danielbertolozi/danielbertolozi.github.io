@@ -7,13 +7,14 @@ dg-publish: true
 Hoje tirei para finalizar as manutenções da E34. Foi feito: 
 
 - Troca da mangueira do radiador lado motorista (Vaico) 
-- Troca dos dois sensores de tenperatura (Meyle)
+- Troca dos dois sensores de temperatura (Meyle)
 - Troca da membrana da PCV da admissão (Vaico)
 - Troca do liquido de arrefecimento por Aditivo (Peak Ultra X435 para carros europeus)
 - Troca da correia do ar condicionado (Bando)
 - Apliquei silicone em volta do conector da transmissão, para vedar um vazamento
 - Bati pra dentro o retentor da seletora de marchas do cambio, que estava vazando
 - Tapei com epoxy mais um vazamento do cárter
+- Troquei a bucha do cabo do acelerador por uma de alumínio 
 Questões: 
 - Identificamos alguns vazamentos a mais: bujão da transmissão, retorno de óleo do cavalete do filtro (motor), mais alguma linha de óleo no lado passageiro
 - O carro está com comportamento bem esquisito. Está rodando super rico na lenta. Quando os sensores de ECT estão ligados corretamente, ele está dando falta de combustível (rápida e aceleração normal). Ao se inverter, a mistura e a rápida melhoram.
