@@ -60,6 +60,7 @@ Tabela com todos os gastos já feitos na E34, para fins de documentar.
 | 05/09/2026 | Clipes caixa de ar                                                          | Grampos       | 23.65   |
 | 05/09/2026 | Tampas parachoque dianteiro                                                 | Carroceria    | 110.37  |
 ## Totais
+Work in progress: funciona no Obsidian desktop, não renderiza na web. Talvez eu escreva meu próprio plugin.
 ```duckdata
 type: table
 datasource: "#items"
