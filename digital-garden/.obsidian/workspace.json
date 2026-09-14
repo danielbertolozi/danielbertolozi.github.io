@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "E34 Registro de gastos.md",
+                "file": "BMW 540i E34.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "E34 Registro de gastos"
+              "title": "BMW 540i E34"
             }
           },
           {
@@ -87,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +112,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -245,25 +245,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
   "active": "5a1f72662d8a2531",
   "lastOpenFiles": [
+    "Bem vindo.md",
+    "E34 Registro de gastos.md",
     "BMW 540i E34.md",
     "E34 Diário de Bordo.md",
     "Compute.md",
     "ECU Tuning - ignição.md",
     "E34 Todos e Wishes.md",
     "E34 Part Numbers e Adaptações.md",
-    "E34 Registro de gastos.md",
     "Sem título.base",
     "E34 Gastos.md",
     "Sem título 1.base",
@@ -271,7 +272,6 @@
     "Wishes.md",
     "Pasted image 20260906003309.png",
     "Carros.md",
-    "Bem vindo.md",
     "Como eu uso um Mac Mini como servidor barato.md",
     "Pasted image 20260904005126.png",
     "Pasted image 20260904004318.png",
