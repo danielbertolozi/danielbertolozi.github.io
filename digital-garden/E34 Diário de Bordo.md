@@ -20,6 +20,12 @@ Questões:
 - O carro está com comportamento bem esquisito. Está rodando super rico na lenta. Quando os sensores de ECT estão ligados corretamente, ele está dando falta de combustível (rápida e aceleração normal). Ao se inverter, a mistura e a rápida melhoram.
 	- Testei voltar a MAF original e desligar a MAF, e nenhuma melhora
 	- Suspeitas: ar falso, regulador de pressão de combustível errado, ambas MAF erradas
+
+Testes a fazer: 
+
+- Desconectar TPS, verificar suas leituras
+- Desconectar sonda, desligar bateria por um tempo, ver se muda algo
+- 
 ### 10/09/2026
 
 BMW foi levada para lavar a parte de baixo do motor com água quente. Cabo do acelerador tá ficando agarrado.
