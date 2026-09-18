@@ -1,10 +1,22 @@
 ---
 dg-publish: true
 ---
+### 
+
 ### 16/09/2026
 Instalada porca de sonda no lado direito do escape, logo na saída do coletor
 
-14/09/2026
+### 14/09/2026
+
+Fiz algumas medições no carro: 
+
+TPS: 
+
+1 a 3: 3.8k
+TPS zero: 1.45k
+TPS wot: 3.8k
+
+Pressão de combustível: 2.7bar (esperado: 3.5bar)
 
 ### 13/09/2026
 
