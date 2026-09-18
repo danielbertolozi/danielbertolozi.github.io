@@ -59,6 +59,9 @@ Tabela com todos os gastos já feitos na E34, para fins de documentar.
 | 05/09/2026 | Tampa do seletor do cambio                                                  | Motor         | 77.62   |
 | 05/09/2026 | Clipes caixa de ar                                                          | Grampos       | 23.65   |
 | 05/09/2026 | Tampas parachoque dianteiro                                                 | Carroceria    | 110.37  |
+| 12/09/2026 | Lavagem de chassis                                                          | Lavagem       | 250     |
+| 12/09/2026 | Mão de obra pintura de parachoque dianteiro                                 | Carroceria    | 350     |
+| 15/09/2026 | MAF usada Bosch                                                             | Injeção       | 566.60  |
 ## Totais
 Work in progress: funciona no Obsidian desktop, não renderiza na web. Talvez eu escreva meu próprio plugin.
 ```duckdata
