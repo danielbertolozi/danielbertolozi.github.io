@@ -1,7 +1,9 @@
 ---
 dg-publish: true
 ---
-### 
+### 18/09/2026
+
+Medimos com sonda lambda a mistura do carro. Pela wideband, tivemos uma leitura de 1.28 na lenta... 
 
 ### 16/09/2026
 Instalada porca de sonda no lado direito do escape, logo na saída do coletor
