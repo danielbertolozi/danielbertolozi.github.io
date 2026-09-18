@@ -4,6 +4,8 @@ dg-publish: true
 ### 16/09/2026
 Instalada porca de sonda no lado direito do escape, logo na saída do coletor
 
+14/09/2026
+
 ### 13/09/2026
 
 Hoje tirei para finalizar as manutenções da E34. Foi feito: 
