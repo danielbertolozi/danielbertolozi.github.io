@@ -48,6 +48,7 @@ BMW part number 13641736908 (13 64 1 736 908), 13641731616 (13 64 1 731 616), 
 
 EV-6-CL
 - Static flow rate at 3 bar, medium N-Heptane [g/min]: 150 (19.8lb/h ou 21lb/h, ou 221cc)
+	- segunda fonte: 
 - Resistor [Ohm]: 14,5
 
 
