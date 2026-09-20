@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "E34 Part Numbers e Adaptações.md",
+                "file": "Receitas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "E34 Part Numbers e Adaptações"
+              "title": "Receitas"
             }
           },
           {
@@ -184,8 +184,10 @@
   },
   "active": "6cb6d43f3093f427",
   "lastOpenFiles": [
-    "E34 Diário de Bordo.md",
+    "Bem vindo.md",
+    "Receitas.md",
     "E34 Part Numbers e Adaptações.md",
+    "E34 Diário de Bordo.md",
     "Pasted image 20260920002313.png",
     "BMW 540i E34.md",
     "Carros.md",
@@ -207,7 +209,6 @@
     "Pintura.md",
     "Histórico de manutenções.md",
     "20260907_183618.jpg",
-    "Bem vindo.md",
     "Sem título.base"
   ]
 }
