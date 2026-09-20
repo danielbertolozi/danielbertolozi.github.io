@@ -54,12 +54,12 @@ EV-6-CL
 - Comprimento entre anéis o-ring (center-to-center): ~60.65 mm – 63 mm  
 - Diâmetro dos O-Rings: 14.5 mm (padrão de encaixe de flauta/manifold da Bosch)
 
-
-
-
 Lucas: 272613075215, 852-12208, D3763FA, BMW P/N 13641747406
 
+Possíveis substituições: 
 
+- 0 280 150 962 - Omega/Mares
+	150g/min, 
 
 
 
