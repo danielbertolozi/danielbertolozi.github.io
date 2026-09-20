@@ -63,7 +63,7 @@ Possíveis substituições:
 - 0 280 150 962 - Omega/Marea
 	150g/min, 14.5-15.9ohms, 20.4lb/h
 - 0 280 150 970 - 150g/min, 14.5ohms
-- 0 280 150 943 / 0 280 155 710 - direct replacement (Ford orange)
+- 0 280 150 0 280 150 943 / 0 280 155 710 - direct replacement (Ford orange)
 
 ## Adaptações
 
