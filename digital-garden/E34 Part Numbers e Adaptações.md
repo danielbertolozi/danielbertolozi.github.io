@@ -59,7 +59,7 @@ Lucas: 272613075215, 852-12208, D3763FA, BMW P/N 13641747406
 Possíveis substituições: 
 
 - 0 280 150 962 - Omega/Mares
-	150g/min, 
+	150g/min, 15.9ohms, 
 
 
 
