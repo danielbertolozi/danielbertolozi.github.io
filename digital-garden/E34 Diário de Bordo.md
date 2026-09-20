@@ -1,6 +1,33 @@
 ---
 dg-publish: true
 ---
+### 20/09/2026: Bomba nova
+
+Hoje fiz a troca da bomba de combustível do carro. Ao abrir a tampa de acesso do copo no porta malas, me deparei com a tampa desrosqueada e a bóia solta. Isso explica o cheiro de gasolina que às vezes era possível sentir, estando perto do carro.
+
+A bomba é fixa no fundo do tanque, com um sistema de grampos. Precisa primeiro soltar a bóia, puxar ela pra fora, pra daí soltar a bomba junto do copo e puxar o conjunto todo pra fora.
+
+A bomba que ela tinha é de marca desconhecida, de tamanho (físico) correto. Imagino que a bomba supra em torno dos 100l/h, o que explica a pressão baixa de combustível, já que o funcionamento da bomba parece ok. Pelo que calculei, esse motor, original, precisa de, no mínimo, uma bomba com 3.5bar e 180lb/h.
+
+A bomba que eu quis instalar, e que eu já tinha guardada, é uma Bosch FP Evo 38 (F 000 TE1 P38). É uma bomba compacta da linha Bosch Performance que atende com sobra a esse motor:
+
+| **Voltagem** | **Vazão @ 3 Bar** | **Vazão @ 4 Bar** | **Vazão @ 5 Bar** |
+| ------------ | ----------------- | ----------------- | ----------------- |
+| 12 Volts     | 296 Litros/h      | 272 Litros/h      | 245 Litros/h      |
+| 13 Volts     | 325 Litros/h      | 300 Litros/h      | 274 Litros/h      |
+| 14 Volts     | **360 Litros/h**  | **331 Litros/h**  | **305 Litros/h**  |
+
+Como o pacote dela é menor que a bomba original da E34, tive que fazer uma adaptação no copo. O copo possui um alojamento, onde a bomba escorrega, com grampos que travam ela no lugar. Fiz um corte transversal, para possibilitar prender a bomba menor usando uma abraçadeira de inox, conforme o esboço abaixo.
+
+![[Pasted image 20260920002313.png]]
+
+Para ajudar a alinhar melhor a bomba, cortei uma mangueira velha de arrefecimento e coloquei como "enxerto" do lado dela dentro da carcaça, para ajudar a fazer pressão e prender mais firme pela abraçadeira.
+
+O restante foi o normal: refiz o conector usando o fornecido pela Bosch, usando uma emenda mecânica (crimpada), com termo retrátil. Para recolocar a bomba no tanque, tem um lado correto, o retorno do copo precisa ficar mais perto do centro do furo do copo.
+
+Como tinha bastante terra em tudo, aproveitei pra limpar bem a região usando o Delete da Vonixx, que é bem bom pra derreter essas terras. As linhas de combustível ficaram um pouco curtas, então pra reinstalar o copo é necessário posicionar ele corretamente, começar a rosquear a porca do tanque, e aí girar o copo um pouco para aproximar as mangueiras das conexões do copo. Depois, dá pra puxar o copo de volta pra orientação correta.
+
+No bater arranque, a pressão de combustível já disparou para 4bar. O carro melhorou muito a resposta, porém está com um cilindro a menos. Provavelmente um bico travou fechado.
 ### 18/09/2026
 
 Medimos com sonda lambda a mistura do carro. Pela wideband, tivemos uma leitura de 1.28 na lenta... 
