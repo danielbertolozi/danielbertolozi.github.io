@@ -50,7 +50,11 @@ EV-6-CL
 - Static flow rate at 3 bar, medium N-Heptane [g/min]: 150 (19.8lb/h ou 21lb/h, ou 221cc)
 	- segunda fonte: 191cc/18.2lb
 - Resistor [Ohm]: 14,5 ±0,5
-- 
+- Comprimento total: ~74 mm  
+- Comprimento entre anéis o-ring (center-to-center): ~60.65 mm – 63 mm  
+- Diâmetro dos O-Rings: 14.5 mm (padrão de encaixe de flauta/manifold da Bosch)
+
+
 
 
 Lucas: 272613075215, 852-12208, D3763FA, BMW P/N 13641747406
