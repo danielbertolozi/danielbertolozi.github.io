@@ -64,7 +64,7 @@ Possíveis substituições:
 	150g/min, 15.9ohms, 
 - 0 280 150 970 - 150g/min, 14.5ohms
 - 0 280 150 427 - M50?
-
+- 0 280 150 943 / 0 280 155 710 - direct replacement (Ford orange)
 
 
 
