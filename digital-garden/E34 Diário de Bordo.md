@@ -5,6 +5,11 @@ dg-publish: true
 
 Medimos com sonda lambda a mistura do carro. Pela wideband, tivemos uma leitura de 1.28 na lenta... 
 
+Calculei quanto que a pressão afeta a injeção, e dá um delta de 16lb/h totais em média, mais ou menos 2lb/h a menos por bico
+Digamos que seja um motor que precisa de 128lb/h em plena carga, ele teria disponível só 112lb, que daria 15% a menos
+
+Se alimentássemos com 15% a mais de combustível, provavelmente compensaria os 1.30 de lambda pra um valor mais decente. 
+
 ### 16/09/2026
 Instalada porca de sonda no lado direito do escape, logo na saída do coletor
 
