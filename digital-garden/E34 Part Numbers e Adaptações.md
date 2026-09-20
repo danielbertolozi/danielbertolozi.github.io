@@ -60,6 +60,7 @@ Possíveis substituições:
 
 - 0 280 150 962 - Omega/Mares
 	150g/min, 15.9ohms, 
+- 0 280 150 970 - 
 
 
 
