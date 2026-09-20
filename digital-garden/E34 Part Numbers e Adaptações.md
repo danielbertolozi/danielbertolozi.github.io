@@ -44,9 +44,9 @@ Capacitores do painel que normalmente falham:
 
 Bicos: 
 
-BMW part number 13641736908 (13 64 1 736 908), 13641731616 (13 64 1 731 616), as well as Bosch part numbers 0280156347 (0 280 156 347) and 62683.
+BMW part number 13641736908 (13 64 1 736 908), 13641731616 (13 64 1 731 616), as well as Bosch part numbers 0280156347 (0 280 156 347) and 62683. - moderna replacement
 
-0 280 150 778 / BMW 13641466396?
+0 280 150 778 / BMW 13641466396 - originais
 
 EV-6-CL
 - Static flow rate at 3 bar, medium N-Heptane [g/min]: 150 (19.8lb/h ou 21lb/h, ou 221cc)
