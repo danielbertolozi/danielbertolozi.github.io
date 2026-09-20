@@ -44,7 +44,7 @@ Capacitores do painel que normalmente falham:
 
 Bicos: 
 
-BMW part number 13641736908 (13 64 1 736 908), 13641731616 (13 64 1 731 616), as well as Bosch part numbers 0280156347 (0 280 156 347) and 62683. - moderna replacement
+BMW part number 13641736908 (13 64 1 736 908), 13641731616 (13 64 1 731 616), as well as Bosch part numbers 0280156347 (0 280 156 347) and 62683. - modern replacement
 
 0 280 150 778 / BMW 13641466396 - originais
 
