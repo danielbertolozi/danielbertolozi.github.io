@@ -1,6 +1,16 @@
 ---
 dg-publish: true
 ---
+### 21/09/2026: Bico travado
+
+De fato, o bico do cilindro 6 travou aberto/gotejando e foi responsável pelo carro estar ruim. Como esses bicos desses carros são difíceis de encontrar novos no Brasil, e em geral são velhos, parti pra opção de pegar bicos de outras aplicações.
+
+Durante minhas pesquisas, que vou documentar também na página de [[E34 Part Numbers e Adaptações]], achei alguns bicos que são acessíveis e compatíveis.
+
+Vamos testar primeiro os bicos do Vectra 2.2 (pretos, código 0 280 155 821), pois consigo facilmente unidades Bosch novas, na caixa. São bicos idênticos aos das BMW E39, mudando apenas o formato do leque – porém, vi em alguns fóruns alguém comentar até que a lenta de sua 540i melhorou com um leque mais fechado, mirado no meio da divisão das válvulas.
+
+![[Pasted image 20260922085119.png]]
+_para referência: desenho da admissão dos cabeçotes M60_
 ### 20/09/2026: Bomba nova
 
 Hoje fiz a troca da bomba de combustível do carro. Ao abrir a tampa de acesso do copo no porta malas, me deparei com a tampa desrosqueada e a bóia solta. Isso explica o cheiro de gasolina que às vezes era possível sentir, estando perto do carro.

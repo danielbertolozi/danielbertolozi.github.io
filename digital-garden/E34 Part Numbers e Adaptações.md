@@ -42,28 +42,23 @@ Capacitores do painel que normalmente falham:
 - ​**3× 220 µF (25V or 35V)**
 - ​**2× 22 µF (50V or 63V)**
 
-Bicos: 
+### Bicos
 
 0 280 150 778 / BMW 13641466396 - originais
+0 280 156 347 / BMW 13641736908 ou 13641731616 - atualizados
 
-BMW part number 13641736908 (13 64 1 736 908), 13641731616 (13 64 1 731 616), as well as Bosch part numbers 0280156347 (0 280 156 347) and 62683 - atualização - 19.8lb @ 3bar
+Tabela comparativa de bicos originais x possíveis substituições ([Fonte](https://pt.scribd.com/doc/21261932/Injector-Heptan-Flows-1)):
 
-EV-6-CL
-- Static flow rate at 3 bar, medium N-Heptane [g/min]: 150 (19.8lb/h ou 21lb/h @ 3.5bar, ou 221cc)
-	- segunda fonte: 191cc/18.2lb
-- Resistor [Ohm]: 14,5 ±0,5
-- Comprimento total: ~74 mm  
-- Comprimento entre anéis o-ring (center-to-center): ~60.65 mm – 63 mm  
-- Diâmetro dos O-Rings: 14.5 mm (padrão de encaixe de flauta/manifold da Bosch)
+| Código Bosch  | Modelo/aplicação                 | Vazão @ 3 bar (lb/h) | N-Hep (g/min) | Altura (mm) | Distância entre ORings (mm) | Impedância (ohms) | ORing (mm) |     |
+| ------------- | -------------------------------- | -------------------- | ------------- | ----------- | --------------------------- | ----------------- | ---------- | --- |
+| 0 280 150 778 | BMW V8                           | 18.9                 | 150           | 74          | 60-62                       | 14.2±0.5          | 14         |     |
+| 0 280 156 347 | BMW 540i, 530i, 840i, etc. (M60) | 19.8                 | 150           | 77-78.5     | 60-62                       | 14.5±0.5          | 14         |     |
+| 0 280 150 962 | Marea, Omega, Santana 2.0        | 19.2                 | 150           | 78          | 60.5-61.5                   | ~15.9             | 14         |     |
+| 0 280 155 821 | Vectra 2.2, Ranger, MPFI         | 19.9                 | 150           | 85          | 60-62                       | 14.5±0.5          | 14         |     |
+| 0 280 150 452 | Vectra 2.0 16v                   | 18.7                 | 150           | 77          | 60-62                       | 14.5±0.5          |            |     |
+Em suma, sendo bicos EV1 ou EV6 com comprimento longo e impedância alta, pode ser compatível.
 
-Lucas: 272613075215, 852-12208, D3763FA, BMW P/N 13641747406
-
-Possíveis substituições: 
-
-- 0 280 150 962 - Omega/Marea
-	150g/min, 14.5-15.9ohms, 20.4lb/h
-- 0 280 150 970 - 150g/min, 14.5ohms
-- 0 280 150 941 / 0 280 150 943 / 0 280 155 710 - direct replacement (Ford orange)
+Tem outras substituições da linha Ford ("oranges", F150, de alguns V8 e afins), porém que não são facilmente encontráveis no Brasil.
 
 ## Adaptações
 
