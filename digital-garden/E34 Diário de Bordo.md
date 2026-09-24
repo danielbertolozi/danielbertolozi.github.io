@@ -1,6 +1,8 @@
 ---
 dg-publish: true
 ---
+
+## 
 ### 21/09/2026: Bico travado
 
 De fato, o bico do cilindro 6 travou aberto/gotejando e foi responsável pelo carro estar ruim. Como esses bicos desses carros são difíceis de encontrar novos no Brasil, e em geral são velhos, parti pra opção de pegar bicos de outras aplicações.
