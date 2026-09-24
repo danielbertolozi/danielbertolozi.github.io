@@ -56,6 +56,7 @@ Tabela comparativa de bicos originais x possíveis substituições ([Fonte](http
 | 0 280 150 962 | Marea, Omega, Santana 2.0        | 19.2                 | 150           | 78          | 60.5-61.5                   | ~15.9             | 14         |     |
 | 0 280 155 821 | Vectra 2.2, Ranger, MPFI         | 19.9                 | 150           | 85          | 60-62                       | 14.5±0.5          | 14         |     |
 | 0 280 150 452 | Vectra 2.0 16v                   | 18.7                 | 150           | 77          | 60-62                       | 14.5±0.5          |            |     |
+
 Em suma, sendo bicos EV1 ou EV6 com comprimento longo e impedância alta, pode ser compatível.
 
 Tem outras substituições da linha Ford ("oranges", F150, de alguns V8 e afins), porém que não são facilmente encontráveis no Brasil.

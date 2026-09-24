@@ -4,11 +4,11 @@ dg-publish: true
 
 ### 23/09/2026: Fim da primeira revisão 
 
-Bicos trocados e o carro se alinhou muito bem. Com sonda lambda, o carro mostra sonda 1.10 em baixa carga e 0.90 em plena. O que mostra que ainda há alguma entrada de ar falso (provavelmente pela PCV), já que o carro é programado, pela DME 3.3, para funcionar a 1.00 e 0.85.
+Bicos trocados pelos 821 e o carro se alinhou muito bem. Com sonda lambda, o carro mostra sonda 1.10 em baixa carga e 0.90 em plena. O que mostra que ainda há alguma entrada de ar falso (provavelmente pela PCV), já que o carro é programado, pela DME 3.3, para funcionar a 1.00 e 0.85.
 
 Testarmos bastante o carro e aparentemente está bem redondo. As velas foram trocadas ainda nesse momento, por velas grau 6.
 
-Troquei o par de lanternas traseiras por clears do aliexpress, temporariamente. Carro veio rodando pra casa sem nenhum entrave. 
+Troquei o par de lanternas traseiras por red clears do aliexpress, temporariamente. Carro veio rodando pra casa sem nenhum entrave, inclusive com muito mais força do que antes. 
 
 ![[20260923_195852.jpg]]
 
@@ -48,7 +48,7 @@ O restante foi o normal: refiz o conector usando o fornecido pela Bosch, usando 
 
 Como tinha bastante terra em tudo, aproveitei pra limpar bem a região usando o Delete da Vonixx, que é bem bom pra derreter essas terras. As linhas de combustível ficaram um pouco curtas, então pra reinstalar o copo é necessário posicionar ele corretamente, começar a rosquear a porca do tanque, e aí girar o copo um pouco para aproximar as mangueiras das conexões do copo. Depois, dá pra puxar o copo de volta pra orientação correta.
 
-No bater arranque, a pressão de combustível já disparou para 4bar. O carro melhorou muito a resposta, porém está com um cilindro a menos. Provavelmente um bico travou fechado.
+No bater arranque, a pressão de combustível já disparou para 4bar. O carro melhorou muito a resposta, porém está com um cilindro a menos. Provavelmente um bico travou fechado. Sensores de temperaturas já estão ligados corretamente agora para a DME aplicar correções por temperatura adequadamente. 
 ### 18/09/2026
 
 Medimos com sonda lambda a mistura do carro. Pela wideband, tivemos uma leitura de 1.28 na lenta... 
