@@ -6,7 +6,11 @@ dg-publish: true
 
 Bicos trocados e o carro se alinhou muito bem. Com sonda lambda, o carro mostra sonda 1.10 em baixa carga e 0.90 em plena. O que mostra que ainda há alguma entrada de ar falso (provavelmente pela PCV), já que o carro é programado, pela DME 3.3, para funcionar a 1.00 e 0.85.
 
-Testarmos bastante o carro e aparentemente está bem redondo. As velas foram trocadas ainda nesse momento, por velas 
+Testarmos bastante o carro e aparentemente está bem redondo. As velas foram trocadas ainda nesse momento, por velas grau 6.
+
+Troquei o par de lanternas traseiras por clears do aliexpress, temporariamente. Carro veio rodando pra casa sem nenhum entrave. 
+
+![[20260923_195852.jpg]]
 
 ### 21/09/2026: Bico travado
 
