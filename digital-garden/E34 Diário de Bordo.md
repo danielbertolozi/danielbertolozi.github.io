@@ -2,7 +2,12 @@
 dg-publish: true
 ---
 
-### 23/09/2026
+### 23/09/2026: Fim da primeira revisão 
+
+Bicos trocados e o carro se alinhou muito bem. Com sonda lambda, o carro mostra sonda 1.10 em baixa carga e 0.90 em plena. O que mostra que ainda há alguma entrada de ar falso (provavelmente pela PCV), já que o carro é programado, pela DME 3.3, para funcionar a 1.00 e 0.85.
+
+Testarmos bastante o carro e aparentemente está bem redondo. As velas foram trocadas ainda nesse momento, por velas 
+
 ### 21/09/2026: Bico travado
 
 De fato, o bico do cilindro 6 travou aberto/gotejando e foi responsável pelo carro estar ruim. Como esses bicos desses carros são difíceis de encontrar novos no Brasil, e em geral são velhos, parti pra opção de pegar bicos de outras aplicações.
