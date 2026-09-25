@@ -1,7 +1,7 @@
 ---
 dg-publish: true
 ---
-
+### 
 ### 23/09/2026: Fim da primeira revisão 
 
 Bicos trocados pelos 821 e o carro se alinhou muito bem. Com sonda lambda, o carro mostra sonda 1.10 em baixa carga e 0.90 em plena. O que mostra que ainda há alguma entrada de ar falso (provavelmente pela PCV), já que o carro é programado, pela DME 3.3, para funcionar a 1.00 e 0.85.
