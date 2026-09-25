@@ -1,7 +1,9 @@
 ---
 dg-publish: true
 ---
-### 
+### 24/09/2026: Parabrisas
+
+Fiz a remoção dos frisos em casa, é só apoiar uma espátula em cima dos grampos e alavancar pra fora. Parabrisa trocado no Peter Autovidros por um Pilkington novo. Passaram cola nas presilhas nas posições originais. Tenho de fixar os frisos, espero que consiga reutilizar sem cola. 
 ### 23/09/2026: Fim da primeira revisão 
 
 Bicos trocados pelos 821 e o carro se alinhou muito bem. Com sonda lambda, o carro mostra sonda 1.10 em baixa carga e 0.90 em plena. O que mostra que ainda há alguma entrada de ar falso (provavelmente pela PCV), já que o carro é programado, pela DME 3.3, para funcionar a 1.00 e 0.85.
