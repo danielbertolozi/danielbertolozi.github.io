@@ -3,7 +3,10 @@ dg-publish: true
 ---
 ### 27/09/2026
 
-Problema
+- Colei os tecidos da borracha da porta do motorista
+- Troquei lâmpadas luz baixa por OSRAM Long Life H1
+- Um fio da lampada do motorista quebrou a solda, refiz ela
+- Troquei as palhetas do limpador (22") - Bosch Classic Wiper (corpo metálico)
 
 ### 25 e 26/09/2026: PCV problems
 
@@ -11,8 +14,9 @@ Eu tinha posto uma PCV Vaico nova, que tava meio esquisita desde a instalação,
 
 A membrana não rasgou, mas acho que ela dobrou e o motor sugou óleo cru pra dentro da admissão. Usei uma carcaça antiga de PCV que eu achei e isolei ela com durepoxi, e derreti um nipple de ar que eu isolava anyways. 
 
+![[IMG-20260926-WA0001.jpg]]
 
-
+Solução bem simples. Deixei o tubo de metal do bloco ventilando pra atmosfera, desencaixado da PCV. Funcionou perfeitamente. 
 ### 24/09/2026: Parabrisas
 
 Fiz a remoção dos frisos em casa, é só apoiar uma espátula em cima dos grampos e alavancar pra fora. Parabrisa trocado no Peter Autovidros por um Pilkington novo. Passaram cola nas presilhas nas posições originais. Os frisos não entraram direito no lugar agora com o parabrisa novo, acho que não rola reusar, e que foram postos desalinhados.
@@ -20,7 +24,7 @@ Fiz a remoção dos frisos em casa, é só apoiar uma espátula em cima dos gram
 
 Bicos trocados pelos 821 e o carro se alinhou muito bem. Com sonda lambda, o carro mostra sonda 1.10 em baixa carga e 0.90 em plena. O que mostra que ainda há alguma entrada de ar falso (provavelmente pela PCV), já que o carro é programado, pela DME 3.3, para funcionar a 1.00 e 0.85.
 
-Testarmos bastante o carro e aparentemente está bem redondo. As velas foram trocadas ainda nesse momento, por velas grau 6.
+Testarmos bastante o carro e aparentemente está bem redondo. As velas foram trocadas ainda nesse momento, por velas grau 6. Gap de 0.55.
 
 Troquei o par de lanternas traseiras por red clears do aliexpress, temporariamente. Carro veio rodando pra casa sem nenhum entrave, inclusive com muito mais força do que antes. 
 
@@ -38,7 +42,7 @@ Vamos testar primeiro os bicos do Vectra 2.2 (pretos, código 0 280 155 821), po
 _para referência: desenho da admissão dos cabeçotes M60_
 ### 20/09/2026: Bomba nova
 
-Hoje fiz a troca da bomba de combustível do carro. Ao abrir a tampa de acesso do copo no porta malas, me deparei com a tampa desrosqueada e a bóia solta. Isso explica o cheiro de gasolina que às vezes era possível sentir, estando perto do carro.
+Hoje fiz a troca da bomba de combustível do carro. Ao abrir a tampa de acesso do copo no porta malas, me deparei com a tampa desrosqueada e a bóia solta.
 
 A bomba é fixa no fundo do tanque, com um sistema de grampos. Precisa primeiro soltar a bóia, puxar ela pra fora, pra daí soltar a bomba junto do copo e puxar o conjunto todo pra fora.
 
@@ -58,9 +62,9 @@ Como o pacote dela é menor que a bomba original da E34, tive que fazer uma adap
 
 Para ajudar a alinhar melhor a bomba, cortei uma mangueira velha de arrefecimento e coloquei como "enxerto" do lado dela dentro da carcaça, para ajudar a fazer pressão e prender mais firme pela abraçadeira.
 
-O restante foi o normal: refiz o conector usando o fornecido pela Bosch, usando uma emenda mecânica (crimpada), com termo retrátil. Para recolocar a bomba no tanque, tem um lado correto, o retorno do copo precisa ficar mais perto do centro do furo do copo.
+O restante foi o normal: refiz o conector usando o fornecido pela Bosch, usando uma emenda mecânica (crimpada), com termo retrátil.
 
-Como tinha bastante terra em tudo, aproveitei pra limpar bem a região usando o Delete da Vonixx, que é bem bom pra derreter essas terras. As linhas de combustível ficaram um pouco curtas, então pra reinstalar o copo é necessário posicionar ele corretamente, começar a rosquear a porca do tanque, e aí girar o copo um pouco para aproximar as mangueiras das conexões do copo. Depois, dá pra puxar o copo de volta pra orientação correta.
+As linhas de combustível ficaram um pouco curtas, então pra reinstalar o copo é necessário posicionar ele corretamente, começar a rosquear a porca do tanque, e aí girar o copo um pouco para aproximar as mangueiras das conexões do copo. Depois, dá pra puxar o copo de volta pra orientação correta.
 
 No bater arranque, a pressão de combustível já disparou para 4bar. O carro melhorou muito a resposta, porém está com um cilindro a menos. Provavelmente um bico travou fechado. Sensores de temperaturas já estão ligados corretamente agora para a DME aplicar correções por temperatura adequadamente. 
 ### 18/09/2026
