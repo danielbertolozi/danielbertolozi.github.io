@@ -1,6 +1,8 @@
 ---
 dg-publish: true
 ---
+
+
 ### 24/09/2026: Parabrisas
 
 Fiz a remoção dos frisos em casa, é só apoiar uma espátula em cima dos grampos e alavancar pra fora. Parabrisa trocado no Peter Autovidros por um Pilkington novo. Passaram cola nas presilhas nas posições originais. Tenho de fixar os frisos, espero que consiga reutilizar sem cola. 
