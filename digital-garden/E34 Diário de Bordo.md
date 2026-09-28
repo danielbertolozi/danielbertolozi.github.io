@@ -1,13 +1,21 @@
 ---
 dg-publish: true
 ---
-### 25/09
+### 27/09/2026
 
 Problema
 
+### 25 e 26/09/2026: PCV problems
+
+Eu tinha posto uma PCV Vaico nova, que tava meio esquisita desde a instalação, dando aquele "apito" típico de uma PCV que não está isolando. Pois dando uma volta com o carro, do nada ele começou a derrubar óleo pelo escape.
+
+A membrana não rasgou, mas acho que ela dobrou e o motor sugou óleo cru pra dentro da admissão. Usei uma carcaça antiga de PCV que eu achei e isolei ela com durepoxi, e derreti um nipple de ar que eu isolava anyways. 
+
+
+
 ### 24/09/2026: Parabrisas
 
-Fiz a remoção dos frisos em casa, é só apoiar uma espátula em cima dos grampos e alavancar pra fora. Parabrisa trocado no Peter Autovidros por um Pilkington novo. Passaram cola nas presilhas nas posições originais. Tenho de fixar os frisos, espero que consiga reutilizar sem cola. 
+Fiz a remoção dos frisos em casa, é só apoiar uma espátula em cima dos grampos e alavancar pra fora. Parabrisa trocado no Peter Autovidros por um Pilkington novo. Passaram cola nas presilhas nas posições originais. Os frisos não entraram direito no lugar agora com o parabrisa novo, acho que não rola reusar, e que foram postos desalinhados.
 ### 23/09/2026: Fim da primeira revisão 
 
 Bicos trocados pelos 821 e o carro se alinhou muito bem. Com sonda lambda, o carro mostra sonda 1.10 em baixa carga e 0.90 em plena. O que mostra que ainda há alguma entrada de ar falso (provavelmente pela PCV), já que o carro é programado, pela DME 3.3, para funcionar a 1.00 e 0.85.
