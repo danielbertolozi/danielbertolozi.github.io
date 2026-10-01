@@ -48,7 +48,7 @@ dg-publish: true
 ## Acabamentos
 
 - [ ] Refazer acabamentos dos frisos
-- [ ] Trocar portinhola da tampa de combustível
+- [x] Trocar portinhola da tampa de combustível
 - [ ] Capinha de porca das torres
 - [ ] 3 capinhas da tampa das bobinas
 - [ ] Repintura maçanetas + troca das borrachas
