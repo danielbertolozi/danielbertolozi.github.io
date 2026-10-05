@@ -1,8 +1,12 @@
 ---
 dg-publish: true
 ---
-### 
 
+### 
+### 02/10/2026
+
+Carro transferido
+- vazamento de combustível na flauta, só solucionou usando uma segunda braçadeira 
 ### 27/09/2026
 
 - Colei os tecidos da borracha da porta do motorista
