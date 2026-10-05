@@ -7,34 +7,34 @@ dg-publish: true
 - [ ] Bandejão para cárter do motor
 - [ ] Bandejão para cárter do câmbio
 - [ ] Par de coxims do motor
-- [ ] Trocar PCV
-- [ ] Isolar rasgo no tubo da admissão
+- [x] Trocar PCV
+- [x] Isolar rasgo no tubo da admissão
 
 ## Arrefecimento
 
 - [ ] Limpar reservatório de expansão
-- [ ] Trocar por aditivo
-- [ ] Passar cola na termostática
-- [ ] Trocar par de sensores de temperatura
+- [x] Trocar por aditivo
+- [x] Passar cola na termostática
+- [x] Trocar par de sensores de temperatura
 
 ## Câmbio
 
 - [ ] Coxim traseiro do câmbio
-- [ ] Vazamento pelo conector da TCU
+- [x] Vazamento pelo conector da TCU
 
 ## Elétrica
 
-- [ ] Faróis motorista com mal contato
-- [ ] checar DTCs pelo painel
+- [x] Faróis motorista com mal contato
+- [x] checar DTCs pelo painel
 - [ ] tirar painel e verificar se chip de dados está corretamente conectado com o Computador de bordo
-- [ ] Lanternas red-clear
+- [x] Lanternas red-clear
 - [ ] Furo do escape
-- [ ] Remover filme lanterna traseira direita (porta malas)
+- [x] Remover filme lanterna traseira direita (porta malas)
 - [ ] Carga no ar condicionado
 
 ## Carroceria
 
-- [ ] Trocar parabrisa dianteiro
+- [x] Trocar parabrisa dianteiro
 - [ ] Retoque porta motorista
 - [ ] Reforma parachoque traseiro
 - [ ] Retoque grade dianteira, oxidação parte inferior dela

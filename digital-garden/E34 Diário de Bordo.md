@@ -6,7 +6,18 @@ dg-publish: true
 
 Polimento em 2 etapas
 
+![[20261004_230616(1).jpg]]
 
+Ferramentas: 
+- Politriz rotativa Black Tools
+- Boina Lincoln Pirulito (lã) corte leve com interface
+- Boina Lincoln espuma corte/refino
+- Massa de polir Nobrecar
+- Blend All in One da Vonixx
+Lavagem com claybar, e após: polimento em máxima RPM com a pirulito e massa de polir. Refino com espuma e Blend all in one. 
+
+Notas: 
+- o carro teve retoques com verniz bem duro no lado passageiro (portas e paralama diant) e capô. Ideal seria passar uma lixa 2000.
 ### 02/10/2026
 
 Carro transferido
