@@ -63,6 +63,8 @@ Tem outras substituições da linha Ford ("oranges", F150, de alguns V8 e afins)
 
 
 BMW 1993 tem iluminação no duto de ar condicionado central, uma luz vermelha outra azul
+
+Seletora de marcha: Cinza é de 525 e 530i m60b30, branco é 535i US Spec, amarelo é da 540i/740i e34 e e32 com 5hp30
 ## Adaptações
 
 Membrana PCV - serve do Jetta 200
