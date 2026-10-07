@@ -55,6 +55,16 @@ dg-publish: true
 - [ ] Repintura limpadores de parabrisa
 - [ ] Capinhas limpador de parabrisa
 
+## Iluminação 
+- [ ] Luz coluna C
+- [ ] Luz "principal" de leitura
+- [ ] Luz teto solar
+- [ ] Luzes computador de bordo
+- [ ] Luzes painel
+- [ ] Luzes ar condicionado 
+- [ ] Luzes seletor faróis 
+- [ ] Led alarme - fixar 
+
 ## Histórico
 
 - [x] Elétrica ventoinhas + defletor
