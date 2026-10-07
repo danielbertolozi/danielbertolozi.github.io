@@ -56,6 +56,7 @@ dg-publish: true
 - [ ] Capinhas limpador de parabrisa
 
 ## Iluminação 
+
 - [ ] Luz coluna C
 - [ ] Luz "principal" de leitura
 - [ ] Luz teto solar
@@ -64,6 +65,7 @@ dg-publish: true
 - [ ] Luzes ar condicionado 
 - [ ] Luzes seletor faróis 
 - [ ] Led alarme - fixar 
+- [ ] Luzes comandos dos vidros
 
 ## Histórico
 

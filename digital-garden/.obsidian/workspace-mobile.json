@@ -23,16 +23,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "E34 Todos e Wishes.md",
+                "file": "E34 Diário de Bordo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "E34 Todos e Wishes"
+              "title": "E34 Diário de Bordo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,11 +182,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "7fc513e7feb16e0a",
+  "active": "4637513ed2ee82f6",
   "lastOpenFiles": [
+    "E34 Todos e Wishes.md",
     "E34 Diário de Bordo.md",
     "E34 Part Numbers e Adaptações.md",
-    "E34 Todos e Wishes.md",
     "20261004_230616(1).jpg",
     "BMW 540i E34.md",
     "IMG-20260926-WA0001.jpg",
