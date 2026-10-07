@@ -62,7 +62,7 @@ Em suma, sendo bicos EV1 ou EV6 com comprimento longo e impedância alta, pode s
 Tem outras substituições da linha Ford ("oranges", F150, de alguns V8 e afins), porém que não são facilmente encontráveis no Brasil.
 
 
-BMW 1993 tem iluminação no duto de ar condicionado central
+BMW 1993 tem iluminação no duto de ar condicionado central, uma luz vermelha outra azul
 ## Adaptações
 
 Membrana PCV - serve do Jetta 200
