@@ -2,7 +2,7 @@
 dg-publish: true
 ---
 
-
+06/10/2026
 ### 04/10/2026
 
 Polimento em 2 etapas
