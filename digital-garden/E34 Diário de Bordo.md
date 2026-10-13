@@ -2,7 +2,17 @@
 dg-publish: true
 ---
 
-06/10/2026
+## 12/10/2026
+
+- Trocado filtro de cabine
+- Porta luvas melhor preso
+- Trocado tubo da admissão 
+- Trocado chave seletora do câmbio - ainda não funciona o "D" 
+- Couro rehidratado
+
+## 06/10/2026
+
+Polimento finalizado com lustro - boina de lustro (espuma) + Blend All in One
 ### 04/10/2026
 
 Polimento em 2 etapas
