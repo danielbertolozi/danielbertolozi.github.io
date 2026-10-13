@@ -9,6 +9,7 @@ dg-publish: true
 - Trocado tubo da admissão 
 - Trocado chave seletora do câmbio - ainda não funciona o "D" 
 - Couro rehidratado
+- Ar condicionado higienizado
 
 ## 06/10/2026
 
