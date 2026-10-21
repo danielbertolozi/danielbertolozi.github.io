@@ -1,7 +1,16 @@
 ---
 dg-publish: true
 ---
+## Outubro/2026
 
+- Vazamento na mangueira de combustível, na flauta - preciso refazer essa linha de combustível 
+- Finalizei polimento dos vidros dos neblinas e os montei com lampadas Osram novas
+- Inspecionei o painel e decidi enviar para a Velossul pra reformar para iluminação original
+- Lubrifiquei sistema de abertura de capô
+- Montei a capa do motor
+- Troquei a seletora do cambio - não era a culpada pelo TRANS PROGRAM. Acredito que pode ser um problema no corpo de válvulas 
+- Surge a ideia de adaptar um ZF8 mais adiante... 
+- Couro higienizado novamente 
 ## 12/10/2026
 
 - Trocado filtro de cabine
