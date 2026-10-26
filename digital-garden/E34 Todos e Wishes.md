@@ -54,6 +54,7 @@ dg-publish: true
 - [ ] Repintura maçanetas + troca das borrachas
 - [ ] Repintura limpadores de parabrisa
 - [ ] Capinhas limpador de parabrisa
+- [ ] 
 
 ## Iluminação 
 
